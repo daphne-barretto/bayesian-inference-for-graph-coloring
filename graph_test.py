@@ -24,12 +24,15 @@ class Color(Enum):
     GRAY    = 7
     BROWN   = 8
     BLACK   = 9
+    
+# %% Set trial parameters
+trial_num_nodes = 9 # Can vary from 2+
+trial_num_colors = 10 # Can currently range from 2-10
 
 # %% Set up graph
 
 G = nx.Graph()
-nodes_array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-G.add_nodes_from(nodes_array)
+G.add_nodes_from(np.arange(0, trial_num_nodes, 1, dtype=int))
 G.add_edges_from([(1,2), (3, 4), (2,5), (4, 5), (6,7), (8,9), (4,7), (1,7), (3,5), (2,7), (5,8), (2,9), (5,7)])
  
 # %%
@@ -41,8 +44,6 @@ def update_color_history(trial_node_colors, trial_node_color_history):
 
 # %%
 
-trial_num_nodes = len(nodes_array) # Can vary from 2+
-trial_num_colors = 10 # Can currently range from 2-10
 trial_node_colors = list(np.random.randint(low = 1,high = trial_num_colors, size = trial_num_nodes))
 trial_stubborness_quotient = list(np.random.uniform(low = 0.0, high = 1.0, size = trial_num_nodes))
 print(trial_stubborness_quotient)
