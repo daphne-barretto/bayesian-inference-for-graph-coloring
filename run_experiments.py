@@ -10,21 +10,6 @@ import numpy as np
 import os
 import random
 
-# %% Create Color Enum
-
-class Color(Enum):
-   NONE    = "none"
-   RED     = 0
-   GREEN   = 1
-   BLUE    = 2
-   YELLOW  = 3
-   ORANGE  = 4
-   PURPLE  = 5
-   PINK    = 6
-   GRAY    = 7
-   BROWN   = 8
-   BLACK   = 9
-
 # %% Set initial trial parameters
 
 trial_num_cliques = 6
@@ -85,7 +70,7 @@ print("adjacenty_matrix", adjacency_matrix)
  
 def update_color_history(trial_node_colors, trial_node_color_history_counts):
    for i in range(trial_num_nodes):
-       node_i_curr_color_value = Color(trial_node_colors[i]).value
+       node_i_curr_color_value = trial_node_colors[i]
        trial_node_color_history_counts[i][node_i_curr_color_value] += 1
 
 # %%
@@ -97,16 +82,11 @@ trial_node_color_history = []
 
 update_color_history(trial_node_colors, trial_node_color_history_counts)
 
-# Initialize full_color_map and draw initial colored Graph 
-full_color_map = []
-color_map = []
+# Initialize color history and draw initial colored Graph 
 color_history = []
 for index in range(trial_num_nodes):
-   color_map.append(Color(trial_node_colors[index]).name)
    color_history.append(trial_node_colors[index])
-full_color_map.append(color_map)
 trial_node_color_history.append(color_history)
-print(list(G.nodes))
 
 # %% run() and run until done
  
@@ -120,17 +100,14 @@ def run(iteration):
             neighbor_column_node_color_probability = np.prod(neighbor_trial_node_color_probability, axis = 0)
             columns_with_highest_probability = np.argwhere(neighbor_column_node_color_probability == np.amax(neighbor_column_node_color_probability))
             random_column_with_highest_probability = random.choice(columns_with_highest_probability)
-            next_color = Color(random_column_with_highest_probability).value
+            next_color = random_column_with_highest_probability[0]
             trial_node_colors[i] = next_color
   
     update_color_history(trial_node_colors, trial_node_color_history_counts)
 
-    color_map = []
     color_history = []
     for index in range(trial_num_nodes):
-        color_map.append(Color(trial_node_colors[index]).name)
         color_history.append(trial_node_colors[index])
-    full_color_map.append(color_map)
     trial_node_color_history.append(color_history)
 
     next_iteration = iteration + 1
@@ -141,8 +118,6 @@ iteration = 0
 done = False
 while iteration < 100 and not done: 
     iteration, done = run(iteration)
-print(trial_node_color_history)
-print(trial_node_color_history_counts)
 
 # %% animate()
 
