@@ -61,26 +61,6 @@ for clique_i in range(trial_num_cliques):
 
 G.add_edges_from(connectors_edges)
 
-# TODO: Check connectiveness at the end, stop trial if disconnected
-
-# TODO: probability matching, sample from the distribution
-# normalize it
-
-# other options?
-# probability of picking something random - always probability of not converging
-#     - decay? or increase?
-# if you can see that your neighbors are stuck for a long time, maybe then sample randomly??? - baked into first proposal
-# nodes that are surrounded by the same, should not move
-# want to push the people on the boundary to make a change
-
-# TODO: compare with the heuristics
-
-# TODO: compare convergence time for this model to help quantify how we are progressing
-# plot the size of the biggest component (proportion of nodes that is biggest with same color)
-# compare to connected requirement? this ignores help to consensus from other people - more conservative measure
-
-# just adding another component
-
 # %% adjacency_matrix
 
 adjacency_matrix = nx.to_numpy_array(G)
