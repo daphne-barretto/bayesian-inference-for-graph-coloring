@@ -14,7 +14,6 @@ import random
 
 trial_num_cliques = 6
 trial_num_nodes_per_clique = 6
-trial_num_nodes = trial_num_cliques * trial_num_nodes_per_clique
 trial_num_colors = 10
 trial_stubborness_quotient_low = 0.0
 trial_stubborness_quotient_high = 1.0
@@ -22,6 +21,7 @@ q = 0.9
 
 # Calculate trial parameters
 
+trial_num_nodes = trial_num_cliques * trial_num_nodes_per_clique
 trial_stubborness_quotient = list(np.random.uniform(low=trial_stubborness_quotient_low, high=trial_stubborness_quotient_high, size=trial_num_nodes))
 
 trial_edges_in_clique_1 = []
@@ -60,6 +60,26 @@ for clique_i in range(trial_num_cliques):
             print("replacing", (old_edge_a, old_edge_b), "with", (new_edge_a, new_edge_b))
 
 G.add_edges_from(connectors_edges)
+
+# TODO: Check connectiveness at the end, stop trial if disconnected
+
+# TODO: probability matching, sample from the distribution
+# normalize it
+
+# other options?
+# probability of picking something random - always probability of not converging
+#     - decay? or increase?
+# if you can see that your neighbors are stuck for a long time, maybe then sample randomly??? - baked into first proposal
+# nodes that are surrounded by the same, should not move
+# want to push the people on the boundary to make a change
+
+# TODO: compare with the heuristics
+
+# TODO: compare convergence time for this model to help quantify how we are progressing
+# plot the size of the biggest component (proportion of nodes that is biggest with same color)
+# compare to connected requirement? this ignores help to consensus from other people - more conservative measure
+
+# just adding another component
 
 # %% adjacency_matrix
 
@@ -118,6 +138,8 @@ iteration = 0
 done = False
 while iteration < 100 and not done: 
     iteration, done = run(iteration)
+
+print(trial_node_color_history)
 
 # %% animate()
 
