@@ -61,6 +61,10 @@ for clique_i in range(trial_num_cliques):
 
 G.add_edges_from(connectors_edges)
 
+if not nx.is_connected(G):
+    print("Graph is not connected, ending trial...")
+    exit()
+
 # %% adjacency_matrix
 
 adjacency_matrix = nx.to_numpy_array(G)
