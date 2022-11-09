@@ -13,6 +13,7 @@ import random
 # %% Set initial trial parameters
 
 is_consensus_not_unique_coloring = True
+max_iterations = 100
 
 trial_num_cliques = 6
 trial_num_nodes_per_clique = 6
@@ -122,8 +123,9 @@ def run_consensus(iteration):
 
 iteration = 0
 done = False
-while iteration < 100 and not done: 
-    iteration, done = run_consensus(iteration)
+if is_consensus_not_unique_coloring:
+    while iteration < max_iterations and not done: 
+        iteration, done = run_consensus(iteration)
 
 print(trial_node_color_history)
 
