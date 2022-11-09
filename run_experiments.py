@@ -12,6 +12,8 @@ import random
 
 # %% Set initial trial parameters
 
+is_consensus_not_unique_coloring = True
+
 trial_num_cliques = 6
 trial_num_nodes_per_clique = 6
 trial_num_colors = 10
@@ -94,7 +96,7 @@ trial_node_color_history.append(color_history)
 
 # %% run() and run until done
  
-def run(iteration):
+def run_consensus(iteration):
     for i in range(trial_num_nodes):
         stubborn = random.random() < trial_stubborness_quotient[i]
         if not stubborn:
@@ -121,7 +123,7 @@ def run(iteration):
 iteration = 0
 done = False
 while iteration < 100 and not done: 
-    iteration, done = run(iteration)
+    iteration, done = run_consensus(iteration)
 
 print(trial_node_color_history)
 
