@@ -13,6 +13,7 @@ import random
 # %% Set initial trial parameters
 
 is_consensus_not_unique_coloring = True
+is_consensus_probability_matching = True
 max_iterations = 100
 
 trial_num_cliques = 6
@@ -92,7 +93,7 @@ update_color_history(trial_node_colors, trial_node_color_history_counts)
 # Initialize color history and draw initial colored Graph 
 color_history = []
 for index in range(trial_num_nodes):
-   color_history.append(trial_node_colors[index])
+    color_history.append(trial_node_colors[index])
 trial_node_color_history.append(color_history)
 
 # %% run() and run until done
@@ -101,14 +102,25 @@ def run_consensus(iteration):
     for i in range(trial_num_nodes):
         stubborn = random.random() < trial_stubborness_quotient[i]
         if not stubborn:
-            neighbor_trial_node_color_history = trial_node_color_history_counts * adjacency_matrix[i].reshape((trial_num_nodes, 1))
-            neighbor_trial_node_color_history_no_zeroes = np.asarray([x+1 for x in neighbor_trial_node_color_history])
-            neighbor_trial_node_color_probability = neighbor_trial_node_color_history_no_zeroes/(iteration+1+trial_num_colors)
-            neighbor_column_node_color_probability = np.prod(neighbor_trial_node_color_probability, axis = 0)
-            columns_with_highest_probability = np.argwhere(neighbor_column_node_color_probability == np.amax(neighbor_column_node_color_probability))
-            random_column_with_highest_probability = random.choice(columns_with_highest_probability)
-            next_color = random_column_with_highest_probability[0]
-            trial_node_colors[i] = next_color
+            if is_consensus_probability_matching:
+                neighbor_trial_node_color_history = trial_node_color_history_counts * adjacency_matrix[i].reshape((trial_num_nodes, 1))
+                neighbor_trial_node_color_history_no_zeroes = np.asarray([x+1 for x in neighbor_trial_node_color_history])
+                neighbor_trial_node_color_probability = neighbor_trial_node_color_history_no_zeroes/(iteration+1+trial_num_colors)
+                neighbor_column_node_color_probability = np.prod(neighbor_trial_node_color_probability, axis = 0)
+                neighbor_column_node_color_probability_normalized = neighbor_column_node_color_probability / sum(neighbor_column_node_color_probability)
+                print(neighbor_column_node_color_probability_normalized)
+                probability_matching_column = np.random.choice(np.arange(trial_num_colors), p=neighbor_column_node_color_probability_normalized)
+                next_color = probability_matching_column
+                trial_node_colors[i] = next_color
+            else:
+                neighbor_trial_node_color_history = trial_node_color_history_counts * adjacency_matrix[i].reshape((trial_num_nodes, 1))
+                neighbor_trial_node_color_history_no_zeroes = np.asarray([x+1 for x in neighbor_trial_node_color_history])
+                neighbor_trial_node_color_probability = neighbor_trial_node_color_history_no_zeroes/(iteration+1+trial_num_colors)
+                neighbor_column_node_color_probability = np.prod(neighbor_trial_node_color_probability, axis = 0)
+                columns_with_highest_probability = np.argwhere(neighbor_column_node_color_probability == np.amax(neighbor_column_node_color_probability))
+                random_column_with_highest_probability = random.choice(columns_with_highest_probability)
+                next_color = random_column_with_highest_probability[0]
+                trial_node_colors[i] = next_color
   
     update_color_history(trial_node_colors, trial_node_color_history_counts)
 
