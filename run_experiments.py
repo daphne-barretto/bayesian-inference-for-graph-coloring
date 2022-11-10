@@ -121,11 +121,47 @@ def run_consensus(iteration):
   
     return next_iteration, trial_node_colors.count(trial_node_colors[0]) == len(trial_node_colors)
 
+def run_unique_coloring(iteration):
+    for i in range(trial_num_nodes):
+        stubborn = random.random() < trial_stubborness_quotient[i]
+        if not stubborn:
+            neighbor_trial_node_color_history = trial_node_color_history_counts * adjacency_matrix[i].reshape((trial_num_nodes, 1))
+            neighbor_trial_node_color_history_no_zeroes = np.asarray([x+1 for x in neighbor_trial_node_color_history])
+            neighbor_trial_node_color_probability = neighbor_trial_node_color_history_no_zeroes/(iteration+1+trial_num_colors)
+            neighbor_column_node_color_probability = np.prod([1-x for x in neighbor_trial_node_color_probability], axis = 0)
+            columns_with_highest_probability = np.argwhere(neighbor_column_node_color_probability == np.amax(neighbor_column_node_color_probability))
+            random_column_with_highest_probability = random.choice(columns_with_highest_probability)
+            next_color = random_column_with_highest_probability[0]
+            trial_node_colors[i] = next_color
+  
+    update_color_history(trial_node_colors, trial_node_color_history_counts)
+
+    color_history = []
+    for index in range(trial_num_nodes):
+        color_history.append(trial_node_colors[index])
+    trial_node_color_history.append(color_history)
+
+    next_iteration = iteration + 1
+    graph_coloring_complete = check_graph_coloring(trial_node_colors)
+
+    return next_iteration, graph_coloring_complete
+
+# %%
+
+def check_graph_coloring(trial_node_colors):
+    for edge in G.edges():
+        if trial_node_colors[edge[0]] == trial_node_colors[edge[1]]:
+            return False
+    return True
+
 iteration = 0
 done = False
 if is_consensus_not_unique_coloring:
     while iteration < max_iterations and not done: 
         iteration, done = run_consensus(iteration)
+else:
+    while iteration < max_iterations and not done: 
+        iteration, done = run_unique_coloring(iteration)
 
 print(trial_node_color_history)
 
