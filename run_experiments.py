@@ -14,7 +14,7 @@ import random
 
 is_consensus_not_unique_coloring = True
 is_consensus_probability_matching = True
-max_iterations = 100
+max_iterations = 200
 
 trial_num_cliques = 6
 trial_num_nodes_per_clique = 6
@@ -88,6 +88,9 @@ trial_node_colors = list(np.random.randint(low = 1, high = trial_num_colors, siz
 trial_node_color_history_counts = np.zeros((trial_num_nodes, trial_num_colors), dtype=int)
 trial_node_color_history = []
 
+biggest_component_color_history = []
+biggest_component_proportion_history = []
+
 update_color_history(trial_node_colors, trial_node_color_history_counts)
 
 # Initialize color history and draw initial colored Graph 
@@ -95,6 +98,10 @@ color_history = []
 for index in range(trial_num_nodes):
     color_history.append(trial_node_colors[index])
 trial_node_color_history.append(color_history)
+
+trial_node_colors_bincount = np.bincount(trial_node_colors)
+biggest_component_color_history.append(np.argmax(trial_node_colors_bincount))
+biggest_component_proportion_history.append(np.max(trial_node_colors_bincount)/trial_num_nodes)
 
 # %% run() and run until done
  
@@ -129,6 +136,10 @@ def run_consensus(iteration):
         color_history.append(trial_node_colors[index])
     trial_node_color_history.append(color_history)
 
+    trial_node_colors_bincount = np.bincount(trial_node_colors)
+    biggest_component_color_history.append(np.argmax(trial_node_colors_bincount))
+    biggest_component_proportion_history.append(np.max(trial_node_colors_bincount)/trial_num_nodes)
+
     next_iteration = iteration + 1
   
     return next_iteration, trial_node_colors.count(trial_node_colors[0]) == len(trial_node_colors)
@@ -153,6 +164,10 @@ def run_unique_coloring(iteration):
         color_history.append(trial_node_colors[index])
     trial_node_color_history.append(color_history)
 
+    trial_node_colors_bincount = np.bincount(trial_node_colors)
+    biggest_component_color_history.append(np.argmax(trial_node_colors_bincount))
+    biggest_component_proportion_history.append(np.max(trial_node_colors_bincount)/trial_num_nodes)
+
     next_iteration = iteration + 1
     graph_coloring_complete = check_graph_coloring(trial_node_colors)
 
@@ -166,6 +181,8 @@ def check_graph_coloring(trial_node_colors):
             return False
     return True
 
+# %%
+
 iteration = 0
 done = False
 if is_consensus_not_unique_coloring:
@@ -176,6 +193,10 @@ else:
         iteration, done = run_unique_coloring(iteration)
 
 print(trial_node_color_history)
+
+# %%
+print(biggest_component_color_history)
+print(biggest_component_proportion_history)
 
 # %% animate()
 
