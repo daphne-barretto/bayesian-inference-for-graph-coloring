@@ -3,6 +3,8 @@
 from datetime import date
 from enum import Enum
 
+import argparse
+import csv
 import matplotlib.animation as animation
 import matplotlib.pyplot as plt
 import networkx as nx
@@ -10,23 +12,60 @@ import numpy as np
 import os
 import random
 
+today = date.today().isoformat()
+file_index = 0
+while os.path.exists("./data/animations/animation_" + today + "_%s.gif" % file_index):
+    file_index += 1
+
+csv_file = open("./data/csv/csv_" + today + "_" + str(file_index) + ".csv", "w")
+writer = csv.writer(csv_file)
+
 # %% Set initial trial parameters
 
-is_consensus_not_unique_coloring = True
-is_consensus_probability_matching = True
-max_iterations = 200
+# is_consensus_not_unique_coloring = True
+# is_consensus_probability_matching = True
+# max_iterations = 500
 
-trial_num_cliques = 6
-trial_num_nodes_per_clique = 6
-trial_num_colors = 10
-trial_stubborness_quotient_low = 0.0
-trial_stubborness_quotient_high = 1.0
-q = 0.9
+# trial_num_cliques = 6
+# trial_num_nodes_per_clique = 6
+# trial_num_colors = 10
+# trial_stubborness_quotient_low = 0.0
+# trial_stubborness_quotient_high = 1.0
+# q = 0.9
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--is_consensus_not_unique_coloring", type=bool, default=True)
+parser.add_argument("--is_consensus_probability_matching", type=bool, default=False)
+parser.add_argument("--max_iterations", type=int, default=500)
+parser.add_argument("--trial_num_cliques", type=int, default=6)
+parser.add_argument("--trial_num_nodes_per_clique", type=int, default=6)
+parser.add_argument("--trial_num_colors", type=int, default=10)
+parser.add_argument("--trial_stubborness_quotient_low", type=float, default=0.0)
+parser.add_argument("--trial_stubborness_quotient_high", type=float, default=0.0)
+parser.add_argument("--q", type=float, default=0)
+args = vars(parser.parse_args())
+
+is_consensus_not_unique_coloring = args["is_consensus_not_unique_coloring"]
+is_consensus_probability_matching = args["is_consensus_probability_matching"]
+max_iterations = args["max_iterations"]
+
+trial_num_cliques = args["trial_num_cliques"]
+trial_num_nodes_per_clique = args["trial_num_nodes_per_clique"]
+trial_num_colors = args["trial_num_colors"]
+trial_stubborness_quotient_low = args["trial_stubborness_quotient_low"]
+trial_stubborness_quotient_high = args["trial_stubborness_quotient_high"]
+q = args["q"]
+
+writer.writerow(args.keys())
+writer.writerow(args.values())
 
 # Calculate trial parameters
 
 trial_num_nodes = trial_num_cliques * trial_num_nodes_per_clique
 trial_stubborness_quotient = list(np.random.uniform(low=trial_stubborness_quotient_low, high=trial_stubborness_quotient_high, size=trial_num_nodes))
+
+writer.writerow(trial_stubborness_quotient)
+writer.writerow("")
 
 trial_edges_in_clique_1 = []
 for i in range(trial_num_nodes_per_clique):
@@ -73,13 +112,14 @@ if not nx.is_connected(G):
 
 adjacency_matrix = nx.to_numpy_array(G)
 print("adjacenty_matrix", adjacency_matrix)
+writer.writerow(adjacency_matrix.tolist())
 
 # %% update_color_history()
- 
+
 def update_color_history(trial_node_colors, trial_node_color_history_counts):
-   for i in range(trial_num_nodes):
-       node_i_curr_color_value = trial_node_colors[i]
-       trial_node_color_history_counts[i][node_i_curr_color_value] += 1
+    for i in range(trial_num_nodes):
+        node_i_curr_color_value = trial_node_colors[i]
+        trial_node_color_history_counts[i][node_i_curr_color_value] += 1
 
 # %%
 
@@ -104,7 +144,7 @@ biggest_component_color_history.append(np.argmax(trial_node_colors_bincount))
 biggest_component_proportion_history.append(np.max(trial_node_colors_bincount)/trial_num_nodes)
 
 # %% run() and run until done
- 
+
 def run_consensus(iteration):
     for i in range(trial_num_nodes):
         stubborn = random.random() < trial_stubborness_quotient[i]
@@ -128,7 +168,7 @@ def run_consensus(iteration):
                 random_column_with_highest_probability = random.choice(columns_with_highest_probability)
                 next_color = random_column_with_highest_probability[0]
                 trial_node_colors[i] = next_color
-  
+
     update_color_history(trial_node_colors, trial_node_color_history_counts)
 
     color_history = []
@@ -141,7 +181,7 @@ def run_consensus(iteration):
     biggest_component_proportion_history.append(np.max(trial_node_colors_bincount)/trial_num_nodes)
 
     next_iteration = iteration + 1
-  
+
     return next_iteration, trial_node_colors.count(trial_node_colors[0]) == len(trial_node_colors)
 
 def run_unique_coloring(iteration):
@@ -156,7 +196,7 @@ def run_unique_coloring(iteration):
             random_column_with_highest_probability = random.choice(columns_with_highest_probability)
             next_color = random_column_with_highest_probability[0]
             trial_node_colors[i] = next_color
-  
+
     update_color_history(trial_node_colors, trial_node_color_history_counts)
 
     color_history = []
@@ -198,6 +238,13 @@ print(trial_node_color_history)
 print(biggest_component_color_history)
 print(biggest_component_proportion_history)
 
+writer.writerow(trial_node_color_history)
+writer.writerow(trial_node_color_history_counts)
+writer.writerow(biggest_component_color_history)
+writer.writerow(biggest_component_proportion_history)
+writer.writerow("")
+writer.writerow([done, iteration, biggest_component_proportion_history[-1]])
+
 # %% animate()
 
 def animate(frame):
@@ -218,9 +265,14 @@ plt.axis('off')
 fig = plt.gcf()
 ani = animation.FuncAnimation(fig, animate, interval=500, frames=iteration+1, blit=True)
 
-today = date.today().isoformat()
-file_index = 0
-while os.path.exists("./data/animations/animation_" + today + "_%s.gif" % file_index):
-   file_index += 1
 file_name = "./data/animations/animation_" + today + "_" + str(file_index) + ".gif"
 ani.save(file_name)
+
+csv_file.close()
+
+biggest_component_plot_file = "./data/biggest_component_plot/biggest_component_plot_" + today + "_" + str(file_index) + ".png"
+
+plt.clf()
+plt.title(today + "_" + str(file_index) + ", " + str(biggest_component_proportion_history[-1]))
+plt.scatter(np.arange(len(biggest_component_proportion_history)), biggest_component_proportion_history, c=biggest_component_color_history, s=6)
+plt.savefig(biggest_component_plot_file)
