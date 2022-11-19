@@ -35,8 +35,8 @@ writer = csv.writer(csv_file)
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--is_consensus_not_unique_coloring", type=bool, default=True)
-parser.add_argument("--is_consensus_probability_matching", type=bool, default=False)
-parser.add_argument("--max_iterations", type=int, default=500)
+parser.add_argument("--is_consensus_probability_matching", type=bool, default=True)
+parser.add_argument("--max_iterations", type=int, default=60)
 parser.add_argument("--trial_num_cliques", type=int, default=6)
 parser.add_argument("--trial_num_nodes_per_clique", type=int, default=6)
 parser.add_argument("--trial_num_colors", type=int, default=10)
@@ -130,6 +130,7 @@ trial_node_color_history = []
 
 biggest_component_color_history = []
 biggest_component_proportion_history = []
+component_proportion_history = []
 
 update_color_history(trial_node_colors, trial_node_color_history_counts)
 
@@ -139,9 +140,10 @@ for index in range(trial_num_nodes):
     color_history.append(trial_node_colors[index])
 trial_node_color_history.append(color_history)
 
-trial_node_colors_bincount = np.bincount(trial_node_colors)
+trial_node_colors_bincount = np.bincount(trial_node_colors, minlength=trial_num_colors)
 biggest_component_color_history.append(np.argmax(trial_node_colors_bincount))
 biggest_component_proportion_history.append(np.max(trial_node_colors_bincount)/trial_num_nodes)
+component_proportion_history.append([(x/trial_num_nodes) for x in trial_node_colors_bincount])
 
 # %% run() and run until done
 
@@ -176,9 +178,10 @@ def run_consensus(iteration):
         color_history.append(trial_node_colors[index])
     trial_node_color_history.append(color_history)
 
-    trial_node_colors_bincount = np.bincount(trial_node_colors)
+    trial_node_colors_bincount = np.bincount(trial_node_colors, minlength=trial_num_colors)
     biggest_component_color_history.append(np.argmax(trial_node_colors_bincount))
     biggest_component_proportion_history.append(np.max(trial_node_colors_bincount)/trial_num_nodes)
+    component_proportion_history.append([(x/trial_num_nodes) for x in trial_node_colors_bincount])
 
     next_iteration = iteration + 1
 
@@ -204,9 +207,10 @@ def run_unique_coloring(iteration):
         color_history.append(trial_node_colors[index])
     trial_node_color_history.append(color_history)
 
-    trial_node_colors_bincount = np.bincount(trial_node_colors)
+    trial_node_colors_bincount = np.bincount(trial_node_colors, minlength=trial_num_colors)
     biggest_component_color_history.append(np.argmax(trial_node_colors_bincount))
     biggest_component_proportion_history.append(np.max(trial_node_colors_bincount)/trial_num_nodes)
+    component_proportion_history.append([(x/trial_num_nodes) for x in trial_node_colors_bincount])
 
     next_iteration = iteration + 1
     graph_coloring_complete = check_graph_coloring(trial_node_colors)
@@ -244,12 +248,18 @@ writer.writerow(biggest_component_color_history)
 writer.writerow(biggest_component_proportion_history)
 writer.writerow("")
 writer.writerow([done, iteration, biggest_component_proportion_history[-1]])
+writer.writerow("TESTING")
+writer.writerow(component_proportion_history)
 
 # %% animate()
+
+# default_colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf']
+default_colors = ['tab:blue', 'tab:orange', 'tab:green', 'tab:red', 'tab:purple', 'tab:brown', 'tab:pink', 'tab:gray', 'tab:olive', 'tab:cyan']
 
 def animate(frame):
     ax = plt.gca()
     ax.set_title("Time " + str(frame))
+    # nc = [default_colors[x] for x in trial_node_color_history[frame]]
     nc = trial_node_color_history[frame]
     nodes.set_array(nc)
     return nodes,
@@ -274,5 +284,13 @@ biggest_component_plot_file = "./data/biggest_component_plot/biggest_component_p
 
 plt.clf()
 plt.title(today + "_" + str(file_index) + ", " + str(biggest_component_proportion_history[-1]))
-plt.scatter(np.arange(len(biggest_component_proportion_history)), biggest_component_proportion_history, c=biggest_component_color_history, s=6)
+# plt.scatter(np.arange(len(biggest_component_proportion_history)), biggest_component_proportion_history, c=biggest_component_color_history, s=6)
+component_proportion_history = np.array(component_proportion_history)
+print(component_proportion_history)
+
+for i in range(trial_num_colors):
+    plt.plot(component_proportion_history[:,i])
+
+
 plt.savefig(biggest_component_plot_file)
+print("POST SAVE")
