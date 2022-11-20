@@ -36,6 +36,7 @@ writer = csv.writer(csv_file)
 parser = argparse.ArgumentParser()
 parser.add_argument("--is_consensus_not_unique_coloring", type=bool, default=True)
 parser.add_argument("--is_consensus_probability_matching", type=bool, default=True)
+parser.add_argument("--memory", type=int, default=0)
 parser.add_argument("--max_iterations", type=int, default=60)
 parser.add_argument("--trial_num_cliques", type=int, default=6)
 parser.add_argument("--trial_num_nodes_per_clique", type=int, default=6)
@@ -47,6 +48,7 @@ args = vars(parser.parse_args())
 
 is_consensus_not_unique_coloring = args["is_consensus_not_unique_coloring"]
 is_consensus_probability_matching = args["is_consensus_probability_matching"]
+memory = args["memory"]
 max_iterations = args["max_iterations"]
 
 trial_num_cliques = args["trial_num_cliques"]
@@ -120,6 +122,14 @@ def update_color_history(trial_node_colors, trial_node_color_history_counts):
     for i in range(trial_num_nodes):
         node_i_curr_color_value = trial_node_colors[i]
         trial_node_color_history_counts[i][node_i_curr_color_value] += 1
+    if len(trial_node_color_history) - 1 > memory:
+        for i in range(trial_num_nodes):
+            color_to_remove = trial_node_color_history[-(memory+1)][i]
+            trial_node_color_history_counts[i][color_to_remove] -= 1
+
+    print("update_color_history(): trial_node_color_history_counts")
+    print(trial_node_color_history_counts)
+    print("end of update_color_history()")
 
 # %%
 
@@ -131,8 +141,6 @@ trial_node_color_history = []
 biggest_component_color_history = []
 biggest_component_proportion_history = []
 component_proportion_history = []
-
-update_color_history(trial_node_colors, trial_node_color_history_counts)
 
 # Initialize color history and draw initial colored Graph 
 color_history = []
@@ -261,13 +269,15 @@ def animate(frame):
     ax.set_title("Time " + str(frame))
     # nc = [default_colors[x] for x in trial_node_color_history[frame]]
     nc = trial_node_color_history[frame]
+    print("PRINTING NODE COLORS")
+    print(nc)
     nodes.set_array(nc)
     return nodes,
 
 # %% layout and draw graph
 
 pos = nx.spring_layout(G)
-nodes = nx.draw_networkx_nodes(G, pos)
+nodes = nx.draw_networkx_nodes(G, pos, cmap="tab10", node_color=range(trial_num_nodes))
 edges = nx.draw_networkx_edges(G, pos)
 edges = nx.draw_networkx_labels(G, pos)
 plt.axis('off')
