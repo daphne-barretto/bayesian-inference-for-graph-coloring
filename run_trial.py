@@ -1,7 +1,6 @@
 # %% Imports
 
 from datetime import date
-from enum import Enum
 
 import argparse
 import csv
@@ -22,17 +21,6 @@ writer = csv.writer(csv_file)
 
 # %% Set initial trial parameters
 
-# is_consensus_not_unique_coloring = True
-# is_consensus_probability_matching = True
-# max_iterations = 500
-
-# trial_num_cliques = 6
-# trial_num_nodes_per_clique = 6
-# trial_num_colors = 10
-# trial_stubborness_quotient_low = 0.0
-# trial_stubborness_quotient_high = 1.0
-# q = 0.9
-
 parser = argparse.ArgumentParser()
 parser.add_argument("--is_consensus_not_unique_coloring", type=bool, default=True)
 parser.add_argument("--is_consensus_probability_matching", type=bool, default=True)
@@ -40,7 +28,7 @@ parser.add_argument("--memory", type=int, default=0)
 parser.add_argument("--max_iterations", type=int, default=60)
 parser.add_argument("--trial_num_cliques", type=int, default=6)
 parser.add_argument("--trial_num_nodes_per_clique", type=int, default=6)
-parser.add_argument("--trial_num_colors", type=int, default=10)
+parser.add_argument("--trial_num_colors", type=int, default=9)
 parser.add_argument("--trial_stubborness_quotient_low", type=float, default=0.0)
 parser.add_argument("--trial_stubborness_quotient_high", type=float, default=0.0)
 parser.add_argument("--q", type=float, default=0)
@@ -85,7 +73,11 @@ for clique_i in range(trial_num_cliques):
 
 G = nx.compose_all(cliques)
 
-connectors_edges = [(1, 7), (7, 13), (13, 19), (19, 25), (25, 31)]
+connectors_edges = []
+for i in range(trial_num_cliques - 1):
+    a = i * trial_num_nodes_per_clique + 1
+    b = a + trial_num_nodes_per_clique
+    connectors_edges.append((a, b))
 
 for clique_i in range(trial_num_cliques):
     for edge_i in trial_edges_in_clique_1:
@@ -156,6 +148,9 @@ component_proportion_history.append([(x/trial_num_nodes) for x in trial_node_col
 # %% run() and run until done
 
 def run_consensus(iteration):
+    if iteration == 0 and trial_node_colors.count(trial_node_colors[0]) == len(trial_node_colors):
+        return iteration, trial_node_colors.count(trial_node_colors[0]) == len(trial_node_colors)
+
     for i in range(trial_num_nodes):
         stubborn = random.random() < trial_stubborness_quotient[i]
         if not stubborn:
@@ -191,9 +186,7 @@ def run_consensus(iteration):
     biggest_component_proportion_history.append(np.max(trial_node_colors_bincount)/trial_num_nodes)
     component_proportion_history.append([(x/trial_num_nodes) for x in trial_node_colors_bincount])
 
-    next_iteration = iteration + 1
-
-    return next_iteration, trial_node_colors.count(trial_node_colors[0]) == len(trial_node_colors)
+    return iteration + 1, trial_node_colors.count(trial_node_colors[0]) == len(trial_node_colors)
 
 def run_unique_coloring(iteration):
     for i in range(trial_num_nodes):
