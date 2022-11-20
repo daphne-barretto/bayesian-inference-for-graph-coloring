@@ -126,7 +126,7 @@ def update_color_history(trial_node_colors, trial_node_color_history_counts):
 # %%
 
 # Initialize node colors and node color history
-trial_node_colors = list(np.random.randint(low = 1, high = trial_num_colors, size = trial_num_nodes))
+trial_node_colors = list(np.random.randint(low = 0, high = trial_num_colors, size = trial_num_nodes))
 trial_node_color_history_counts = np.zeros((trial_num_nodes, trial_num_colors), dtype=int)
 trial_node_color_history = []
 
