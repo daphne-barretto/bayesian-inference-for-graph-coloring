@@ -11,19 +11,11 @@ import numpy as np
 import os
 import random
 
-today = date.today().isoformat()
-file_index = 0
-while os.path.exists("./data/animations/animation_" + today + "_%s.gif" % file_index):
-    file_index += 1
-
-csv_file = open("./data/csv/csv_" + today + "_" + str(file_index) + ".csv", "w")
-writer = csv.writer(csv_file)
-
 # %% Set initial trial parameters
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--is_consensus_not_unique_coloring", type=bool, default=True)
-parser.add_argument("--is_consensus_probability_matching", type=bool, default=True)
+parser.add_argument("--is_consensus_probability_matching", type=bool, default=False)
 parser.add_argument("--memory", type=int, default=0)
 parser.add_argument("--max_iterations", type=int, default=60)
 parser.add_argument("--trial_num_cliques", type=int, default=6)
@@ -45,6 +37,17 @@ trial_num_colors = args["trial_num_colors"]
 trial_stubborness_quotient_low = args["trial_stubborness_quotient_low"]
 trial_stubborness_quotient_high = args["trial_stubborness_quotient_high"]
 q = args["q"]
+
+today = date.today().isoformat()
+file_index = 0
+while os.path.exists("./data/animations/animation_" + today + "_" + str(args.values()).replace(",", "-") + "_%s.gif" % file_index):
+    file_index += 1
+
+csv_file = open("./data/csv/csv_" + today + "_" + str(args.values()).replace(",", "-") + "_" + str(file_index) + ".csv", "w")
+writer = csv.writer(csv_file)
+
+print(args.keys())
+print(args.values())
 
 writer.writerow(args.keys())
 writer.writerow(args.values())
@@ -278,12 +281,12 @@ plt.axis('off')
 fig = plt.gcf()
 ani = animation.FuncAnimation(fig, animate, interval=500, frames=iteration+1, blit=True)
 
-file_name = "./data/animations/animation_" + today + "_" + str(file_index) + ".gif"
+file_name = "./data/animations/animation_" + today + "_" + str(args.values()).replace(",", "-") + "_" + str(file_index) + ".gif"
 ani.save(file_name)
 
 csv_file.close()
 
-biggest_component_plot_file = "./data/biggest_component_plot/biggest_component_plot_" + today + "_" + str(file_index) + ".png"
+biggest_component_plot_file = "./data/biggest_component_plot/biggest_component_plot_" + today + "_" + str(args.values()).replace(",", "-") + "_" + str(file_index) + ".png"
 
 plt.clf()
 plt.title(today + "_" + str(file_index) + ", " + str(biggest_component_proportion_history[-1]))
