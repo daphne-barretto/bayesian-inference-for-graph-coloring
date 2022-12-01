@@ -2,7 +2,7 @@ from datetime import date
 
 import os
 
-for i in range(72):
+for i in range(50):
 
     today = date.today().isoformat()
     file_index = 0
