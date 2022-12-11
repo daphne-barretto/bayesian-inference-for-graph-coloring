@@ -12,6 +12,66 @@ import os
 import random
 
 
+# define create_graph()
+def create_graph(args):
+
+    num_nodes = args.cliques * args.nodes_per_clique
+
+    # calculate the edges in clique 0 
+    # clique 0 is the clique with nodes [0, args.nodes_per_clique])
+    # this is used to make each clique into a clique and rewire
+
+    edges_in_clique_0 = []
+    for i in range(args.nodes_per_clique):
+        for j in range(args.nodes_per_clique - i - 1):
+            edges_in_clique_0.append((i+1, i+j+2))
+
+    # set up the graph as G
+
+    # create an array of each clique as an individual complete graph correctly numbered
+    cliques = []
+    for clique_i in range(args.cliques):
+        G = nx.complete_graph(n=args.nodes_per_clique)
+        G = nx.convert_node_labels_to_integers(G, first_label=1+args.nodes_per_clique*clique_i, ordering='default', label_attribute=None)
+        cliques.append(G)
+
+    # combine all cliques into a single graph G
+    G = nx.compose_all(cliques)
+
+    # create an array of connector edges that connect the cliques
+    connector_edges = []
+    for clique_i in range(args.cliques - 1):
+        largest_node_in_lower_clique = (clique_i+1) * args.nodes_per_clique
+        lowest_node_in_higher_clique = largest_node_in_lower_clique + 1
+        connector_edges.append((largest_node_in_lower_clique, lowest_node_in_higher_clique))
+    # combine the connector edges with all the cliques to create the default graph
+    G.add_edges_from(connector_edges)
+
+    # rewire the graph based on q
+    for clique_i in range(args.cliques):
+        for edge_i in edges_in_clique_0:
+            rewire = random.random() < args.q
+            if rewire:
+                old_edge_a = args.nodes_per_clique*clique_i+edge_i[0]
+                old_edge_b = args.nodes_per_clique*clique_i+edge_i[1]
+                G.remove_edge(old_edge_a, old_edge_b)
+
+                keep_a = random.random() < 0.5
+                new_edge_a = old_edge_a if keep_a else old_edge_b
+                new_edge_b = new_edge_a
+                while(new_edge_a == new_edge_b or G.has_edge(new_edge_a, new_edge_b)):
+                    new_edge_b = random.randint(1, num_nodes)
+                G.add_edge(new_edge_a, new_edge_b)
+
+    # confirm that the graph is connected
+    # if the graph is not connected, close and delete the csv file, and exit
+    if not nx.is_connected(G):
+        print("G is not connected, recreating G...")
+        return False, None
+
+    return True, G
+
+
 # define run_trial()
 def run_trial(args):
 
@@ -63,59 +123,9 @@ def run_trial(args):
     writer.writerow(unstuckness)
 
 
-    # calculate the edges in clique 0 
-    # clique 0 is the clique with nodes [0, args.nodes_per_clique])
-    # this is used to make each clique into a clique and rewire
-
-    edges_in_clique_0 = []
-    for i in range(args.nodes_per_clique):
-        for j in range(args.nodes_per_clique - i - 1):
-            edges_in_clique_0.append((i+1, i+j+2))
-
-    # set up the graph as G
-
-    # create an array of each clique as an individual complete graph correctly numbered
-    cliques = []
-    for clique_i in range(args.cliques):
-        G = nx.complete_graph(n=args.nodes_per_clique)
-        G = nx.convert_node_labels_to_integers(G, first_label=1+args.nodes_per_clique*clique_i, ordering='default', label_attribute=None)
-        cliques.append(G)
-
-    # combine all cliques into a single graph G
-    G = nx.compose_all(cliques)
-
-    # create an array of connector edges that connect the cliques
-    connector_edges = []
-    for clique_i in range(args.cliques - 1):
-        largest_node_in_lower_clique = (clique_i+1) * args.nodes_per_clique
-        lowest_node_in_higher_clique = largest_node_in_lower_clique + 1
-        connector_edges.append((largest_node_in_lower_clique, lowest_node_in_higher_clique))
-    # combine the connector edges with all the cliques to create the default graph
-    G.add_edges_from(connector_edges)
-
-    # rewire the graph based on q
-    for clique_i in range(args.cliques):
-        for edge_i in edges_in_clique_0:
-            rewire = random.random() < args.q
-            if rewire:
-                old_edge_a = args.nodes_per_clique*clique_i+edge_i[0]
-                old_edge_b = args.nodes_per_clique*clique_i+edge_i[1]
-                G.remove_edge(old_edge_a, old_edge_b)
-
-                keep_a = random.random() < 0.5
-                new_edge_a = old_edge_a if keep_a else old_edge_b
-                new_edge_b = new_edge_a
-                while(new_edge_a == new_edge_b or G.has_edge(new_edge_a, new_edge_b)):
-                    new_edge_b = random.randint(1, num_nodes)
-                G.add_edge(new_edge_a, new_edge_b)
-
-    # confirm that the graph is connected
-    # if the graph is not connected, close and delete the csv file, and exit
-    if not nx.is_connected(G):
-        print("G is not connected, ending and deleting trial...")
-        csv_file.close()
-        os.remove(csv_filename)
-        return
+    success = False
+    while not success:
+        success, G = create_graph(args)
 
     # get the adjacency matrix and write to csv
     adjacency_matrix = nx.to_numpy_array(G)
