@@ -122,9 +122,10 @@ def run_trial(args):
     writer.writerow(["adjacency matrix"])
     writer.writerow([adjacency_matrix.tolist()])
 
-    # initialize node colors, node color history counts, node color history
+    # initialize node colors, node color history counts and total, node color history
     current_node_colors = list(np.random.randint(low = 0, high = args.colors, size = num_nodes))
     node_color_history_counts = np.zeros((num_nodes, args.colors), dtype=int)
+    node_color_history_counts_total = []
     node_color_history = []
 
     # initialize biggest component color history and component proportion history
@@ -134,6 +135,7 @@ def run_trial(args):
 
     # define update_color_history_counts()
     def update_color_history_counts(current_node_colors, node_color_history_counts):
+        node_color_history_counts_total.append(node_color_history_counts.tolist())
         for i in range(num_nodes):
             node_i_curr_color_value = current_node_colors[i]
             node_color_history_counts[i][node_i_curr_color_value] += 1
@@ -232,6 +234,8 @@ def run_trial(args):
     # write node color history, node color history counts, and component proportion history to csv
     writer.writerow(["node color history"])
     writer.writerow([node_color_history])
+    writer.writerow(["node color history counts total"])
+    writer.writerow([node_color_history_counts_total])
     writer.writerow(["biggest component color history"])
     writer.writerow(biggest_component_color_history)
     writer.writerow(["component proportion history"])
@@ -249,8 +253,8 @@ def run_trial(args):
         def animate(frame):
             ax = plt.gca()
             ax.set_title("Time " + str(frame))
-            # nc = node_color_history[frame]
-            # nodes.set_array(nc)
+            nc = node_color_history[frame]
+            nodes.set_array(nc)
             return nodes,
 
         # layout and draw graph
