@@ -22,7 +22,7 @@ def run_trial(args):
     model_name = "%s-memory_%d-stubbornness_%.2f_%.2f-randomness_%.2f_%.2f-unstuckness_%.2f_%.2f" % (decision_making, args.memory, args.stubbornness_low, args.stubbornness_high, args.randomness_low, args.randomness_high, args.unstuckness_low, args.unstuckness_high)
 
     # create trial setup name based on parameters
-    trial_setup_name = "max_iterations_%d-cliques_%d-nodes_per_clique_%d-colors_%d-q_%d" % (args.max_iterations, args.cliques, args.nodes_per_clique, args.colors, args.q)
+    trial_setup_name = "max_iterations_%d-cliques_%d-nodes_per_clique_%d-colors_%d-q_%.2f" % (args.max_iterations, args.cliques, args.nodes_per_clique, args.colors, args.q)
 
     # make directories if needed
     trial_path = args.model_location + model_name + "/" + trial_setup_name
@@ -115,7 +115,7 @@ def run_trial(args):
         print("G is not connected, ending and deleting trial...")
         csv_file.close()
         os.remove(csv_filename)
-        exit()
+        return
 
     # get the adjacency matrix and write to csv
     adjacency_matrix = nx.to_numpy_array(G)
@@ -181,7 +181,7 @@ def run_trial(args):
             # if node is randomly random, select a random color
             is_random = random.random() < randomness[i]
             if is_random:
-                current_node_colors[i] = np.random.randint(low=0, high=trial_num_colors)
+                current_node_colors[i] = np.random.randint(low=0, high=args.colors)
                 continue
 
             # remove all values that are not neighbors
@@ -207,7 +207,7 @@ def run_trial(args):
                 # normalize the probability that all neighbors select a given color
                 neighbor_column_node_color_probability_normalized = neighbor_column_node_color_probability/sum(neighbor_column_node_color_probability)
                 # randomly select a color using the normalized probabilities
-                current_node_colors[i] = np.random.choice(np.arange(num_colors), p=neighbor_column_node_color_probability_normalized)
+                current_node_colors[i] = np.random.choice(np.arange(args.colors), p=neighbor_column_node_color_probability_normalized)
             # if decision making with deterministic selection
             else:
                 # find the nodes with the highest probability that all neighbors select a given color
@@ -275,6 +275,7 @@ def run_trial(args):
 
         # save animation
         ani.save(animation_filename)
+        plt.clf()
         print("Trial animation saved to %s", animation_filename)
 
     # if specified, plot the component proportions
@@ -287,6 +288,7 @@ def run_trial(args):
             plt.plot(component_proportion_history[:,i])
 
         plt.savefig(component_plot_filename)
+        plt.clf()
         print("Trial component plot saved to %s", component_plot_filename)
 
 
