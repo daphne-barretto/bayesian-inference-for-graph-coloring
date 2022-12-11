@@ -12,7 +12,7 @@ import os
 import random
 
 
-# def run_trial()
+# define run_trial()
 def run_trial(args):
 
     # set up file names
@@ -244,10 +244,15 @@ def run_trial(args):
 
     # close csv file
     csv_file.close()
+    print("Trial data saved to %s", csv_filename)
 
 
     # if specified, animate
     if args.animation:
+
+        # define init_func()
+        def init_func():
+            return nodes,
 
         # define animate()
         def animate(frame):
@@ -259,17 +264,18 @@ def run_trial(args):
 
         # layout and draw graph
         pos = nx.spring_layout(G)
-        nodes = nx.draw_networkx_nodes(G, pos, cmap="tab10", node_color=range(num_nodes))
+        nodes = nx.draw_networkx_nodes(G, pos, cmap=plt.cm.tab10, node_color=range(num_nodes), vmin=0, vmax=args.colors)
         edges = nx.draw_networkx_edges(G, pos)
         edges = nx.draw_networkx_labels(G, pos)
         plt.axis('off')
 
         # run animation
         fig = plt.gcf()
-        ani = animation.FuncAnimation(fig, animate, interval=500, frames=iteration+1, blit=True)
+        ani = animation.FuncAnimation(fig, animate, init_func=init_func, interval=500, frames=iteration+1, blit=True)
 
         # save animation
         ani.save(animation_filename)
+        print("Trial animation saved to %s", animation_filename)
 
     # if specified, plot the component proportions
     if args.component_plot:
@@ -281,6 +287,7 @@ def run_trial(args):
             plt.plot(component_proportion_history[:,i])
 
         plt.savefig(component_plot_filename)
+        print("Trial component plot saved to %s", component_plot_filename)
 
 
 if __name__ == '__main__':
