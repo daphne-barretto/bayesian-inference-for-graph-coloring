@@ -1,4 +1,4 @@
-# %% Imports
+# imports
 
 from datetime import date
 
