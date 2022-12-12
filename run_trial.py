@@ -254,7 +254,7 @@ def run_trial(args):
 
     # close csv file
     csv_file.close()
-    print("Trial data saved to %s", csv_filename)
+    print("Trial data saved to %s" % csv_filename)
 
 
     # if specified, animate
@@ -286,7 +286,7 @@ def run_trial(args):
         # save animation
         ani.save(animation_filename)
         plt.clf()
-        print("Trial animation saved to %s", animation_filename)
+        print("Trial animation saved to %s" % animation_filename)
 
     # if specified, plot the component proportions
     if args.component_plot:
@@ -299,7 +299,7 @@ def run_trial(args):
 
         plt.savefig(component_plot_filename)
         plt.clf()
-        print("Trial component plot saved to %s", component_plot_filename)
+        print("Trial component plot saved to %s" % component_plot_filename)
 
 
 if __name__ == '__main__':
