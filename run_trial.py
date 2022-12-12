@@ -331,6 +331,9 @@ if __name__ == '__main__':
     parser.add_argument("--colors", type=int, default=9)
     parser.add_argument("--q", type=float, default=0)
 
+    parser.add_argument("--trials", type=int, default=1)
+
     args = parser.parse_args()
 
-    run_trial(args)
+    for i in range(args.trials):
+        run_trial(args)
