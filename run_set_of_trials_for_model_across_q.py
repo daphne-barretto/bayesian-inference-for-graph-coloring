@@ -21,6 +21,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--probability_matching", action=argparse.BooleanOptionalAction)
     parser.add_argument("--memory", type=int, default=0)
+    parser.add_argument("--trials", type=int, default=100)
     args = parser.parse_args()
 
     args = Namespace(
@@ -44,4 +45,4 @@ if __name__ == '__main__':
             q = 0.0
     )
 
-    run_set_of_trials_across_q(args, 100)
+    run_set_of_trials_across_q(args, args.trials)
