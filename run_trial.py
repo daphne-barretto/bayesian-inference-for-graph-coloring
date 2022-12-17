@@ -85,7 +85,7 @@ def run_trial(args):
     trial_setup_name = "max_iterations_%d-cliques_%d-nodes_per_clique_%d-colors_%d-q_%.2f" % (args.max_iterations, args.cliques, args.nodes_per_clique, args.colors, args.q)
 
     # make directories if needed
-    trial_path = args.model_location + model_name + "/" + trial_setup_name
+    trial_path = args.model_location + "/" + model_name + "/" + trial_setup_name
     if not os.path.exists(trial_path):
         # os.makedirs(trial_path)
         os.makedirs(trial_path + "/animation/")
@@ -94,12 +94,12 @@ def run_trial(args):
 
     # find trial index based on existing runs of this model (based on csv file existance)
     trial_index = 0
-    csv_filename = args.model_location + model_name + "/" + trial_setup_name + "/csv/csv%d.csv" % trial_index
+    csv_filename = trial_path + "/csv/csv%d.csv" % trial_index
     while os.path.exists(trial_path + "/csv/csv%d.csv" % trial_index):
         trial_index += 1
-        csv_filename = args.model_location + model_name + "/" + trial_setup_name + "/csv/csv%d.csv" % trial_index
+        csv_filename = trial_path + "/csv/csv%d.csv" % trial_index
     animation_filename = trial_path + "/animation/animation%d.gif" % trial_index
-    component_plot_filename = args.model_location + model_name + "/" + trial_setup_name + "/component_plot/component_plot%d.png" % trial_index
+    component_plot_filename =trial_path + "/component_plot/component_plot%d.png" % trial_index
 
 
     # set up csv writer
@@ -183,11 +183,6 @@ def run_trial(args):
         # every node goes through the color decision each iteration
         for i in range(num_nodes):
 
-            # if node is randomly stubborn, stay the same color
-            is_stubborn = random.random() < stubbornness[i]
-            if is_stubborn:
-                continue
-
             # if node is randomly random, select a random color
             is_random = random.random() < randomness[i]
             if is_random:
@@ -211,11 +206,19 @@ def run_trial(args):
                     neighbor_column_node_color_probability[column_with_highest_probability] = 0
                 # go through normal decision making after removing the highest probability option from consideration
 
+            # if node is randomly stubborn, stay the same color
+            is_stubborn = random.random() < stubbornness[i]
+            if is_stubborn:
+                continue
+
             # normal decision making (e.g., no stubborn, random, unstuck individual behaviors)
             # if decision making with probability matching
             if args.probability_matching:
                 # normalize the probability that all neighbors select a given color
-                neighbor_column_node_color_probability_normalized = neighbor_column_node_color_probability/sum(neighbor_column_node_color_probability)
+                if sum(neighbor_column_node_color_probability) != 0:
+                    neighbor_column_node_color_probability_normalized = neighbor_column_node_color_probability/sum(neighbor_column_node_color_probability)
+                else:
+                    neighbor_column_node_color_probability_normalized = [1.0/len(neighbor_column_node_color_probability)] * len(neighbor_column_node_color_probability)
                 # randomly select a color using the normalized probabilities
                 current_node_colors[i] = np.random.choice(np.arange(args.colors), p=neighbor_column_node_color_probability_normalized)
             # if decision making with deterministic selection

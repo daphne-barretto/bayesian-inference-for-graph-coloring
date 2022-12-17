@@ -19,45 +19,45 @@ def run_set_of_trials_across_q(args, trials=0):
         #     args.memory = args.memory - 90
 
         for unstuckness_high in unstuckness_high_list:
-            args.unstuckness_high = unstuckness_high
+            args.randomness_high = unstuckness_high
             # model_location = args.model_location
-            model_location = "./data/individual_models_with_unstuckness_0.00_%.2f" % unstuckness_high
-            args.model_location = "./data/individual_models_with_unstuckness_0.00_%.2f" % unstuckness_high
-            model_option_location = model_location + "/%s-memory_%d-stubbornness_0.00_0.00-randomness_0.00_0.00-unstuckness_0.00_%.2f" % ("probability_matching", args.memory, unstuckness_high)
+            model_location = "./data/individual_models_with_randomness_0.00_%.2f" % unstuckness_high
+            args.model_location = "./data/individual_models_with_randomness_0.00_%.2f" % unstuckness_high
+            model_option_location = model_location + "/%s-memory_%d-stubbornness_0.00_0.00-randomness_0.00_%.2f-unstuckness_0.00_0.00" % ("probability_matching", args.memory, unstuckness_high)
             trial_location = model_option_location + "/max_iterations_180-cliques_6-nodes_per_clique_6-colors_9-q_%.2f" % q
             if not os.path.exists(trial_location):
                 os.makedirs(trial_location + "/animation/")
                 os.makedirs(trial_location + "/csv/")
                 os.makedirs(trial_location + "/component_plot/")
             print(len(os.listdir(trial_location + "/csv/")))
-            while len(os.listdir(trial_location + "/csv/")) < 30:
+            while len(os.listdir(trial_location + "/csv/")) < trials:
                 args.probability_matching = True
                 run_trial(args)
 
         for unstuckness_high in unstuckness_high_list:
-            args.unstuckness_high = unstuckness_high
+            args.randomness_high = unstuckness_high
             # model_location = args.model_location
-            model_location = "./data/individual_models_with_unstuckness_0.00_%.2f" % unstuckness_high
-            args.model_location = "./data/individual_models_with_unstuckness_0.00_%.2f" % unstuckness_high
-            model_option_location = model_location + "/%s-memory_%d-stubbornness_0.00_0.00-randomness_0.00_0.00-unstuckness_0.00_%.2f" % ("deterministic", args.memory, unstuckness_high)
+            model_location = "./data/individual_models_with_randomness_0.00_%.2f" % unstuckness_high
+            args.model_location = "./data/individual_models_with_randomness_0.00_%.2f" % unstuckness_high
+            model_option_location = model_location + "/%s-memory_%d-stubbornness_0.00_0.00-randomness_0.00_%.2f-unstuckness_0.00_0.00" % ("deterministic", args.memory, unstuckness_high)
             trial_location = model_option_location + "/max_iterations_180-cliques_6-nodes_per_clique_6-colors_9-q_%.2f" % q
             if not os.path.exists(trial_location):
                 os.makedirs(trial_location + "/animation/")
                 os.makedirs(trial_location + "/csv/")
                 os.makedirs(trial_location + "/component_plot/")
             print(len(os.listdir(trial_location + "/csv/")))
-            while len(os.listdir(trial_location + "/csv/")) < 30:
+            while len(os.listdir(trial_location + "/csv/")) < trials:
                 args.probability_matching = False
                 run_trial(args)
 
         # args.memory = args.memory + 90
 
         # for unstuckness_high in unstuckness_high_list:
-        #     args.unstuckness_high = unstuckness_high
+        #     args.randomness_high = unstuckness_high
         #     # model_location = args.model_location
-        #     model_location = "./data/individual_models_with_unstuckness_0.00_%.2f" % unstuckness_high
-        #     args.model_location = "./data/individual_models_with_unstuckness_0.00_%.2f" % unstuckness_high
-        #     model_option_location = model_location + "/%s-memory_%d-stubbornness_0.00_0.00-randomness_0.00_0.00-unstuckness_0.00_%.2f" % ("probability_matching", args.memory, unstuckness_high)
+        #     model_location = "./data/individual_models_with_randomness_0.00_%.2f" % unstuckness_high
+        #     args.model_location = "./data/individual_models_with_randomness_0.00_%.2f" % unstuckness_high
+        #     model_option_location = model_location + "/%s-memory_%d-stubbornness_0.00_0.00-randomness_0.00_%.2f-unstuckness_0.00_0.00" % ("probability_matching", args.memory, unstuckness_high)
         #     trial_location = model_option_location + "/max_iterations_180-cliques_6-nodes_per_clique_6-colors_9-q_%.2f" % q
         #     if not os.path.exists(trial_location):
         #         os.makedirs(trial_location + "/animation/")
@@ -69,11 +69,11 @@ def run_set_of_trials_across_q(args, trials=0):
         #         run_trial(args)
 
         # for unstuckness_high in unstuckness_high_list:
-        #     args.unstuckness_high = unstuckness_high
+        #     args.randomness_high = unstuckness_high
         #     # model_location = args.model_location
-        #     model_location = "./data/individual_models_with_unstuckness_0.00_%.2f" % unstuckness_high
-        #     args.model_location = "./data/individual_models_with_unstuckness_0.00_%.2f" % unstuckness_high
-        #     model_option_location = model_location + "/%s-memory_%d-stubbornness_0.00_0.00-randomness_0.00_0.00-unstuckness_0.00_%.2f" % ("deterministic", args.memory, unstuckness_high)
+        #     model_location = "./data/individual_models_with_randomness_0.00_%.2f" % unstuckness_high
+        #     args.model_location = "./data/individual_models_with_randomness_0.00_%.2f" % unstuckness_high
+        #     model_option_location = model_location + "/%s-memory_%d-stubbornness_0.00_0.00-randomness_0.00_%.2f-unstuckness_0.00_0.00" % ("probability_matching", args.memory, unstuckness_high)
         #     trial_location = model_option_location + "/max_iterations_180-cliques_6-nodes_per_clique_6-colors_9-q_%.2f" % q
         #     if not os.path.exists(trial_location):
         #         os.makedirs(trial_location + "/animation/")
