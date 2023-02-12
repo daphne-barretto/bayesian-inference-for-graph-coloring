@@ -80,7 +80,8 @@ def run_trial(args):
 
     # create model name based on parameters 
     decision_making = "probability_matching" if args.probability_matching else "deterministic"
-    model_name = "%s-memory_%d-stubbornness_%.2f_%.2f-randomness_%.2f_%.2f-unstuckness_%.2f_%.2f" % (decision_making, args.memory, args.stubbornness_low, args.stubbornness_high, args.randomness_low, args.randomness_high, args.unstuckness_low, args.unstuckness_high)
+    decision_making_calculation = "sum" if args.sum else "product"
+    model_name = "%s-%s-memory_%d-stubbornness_%.2f_%.2f-randomness_%.2f_%.2f-unstuckness_%.2f_%.2f" % (decision_making_calculation, decision_making, args.memory, args.stubbornness_low, args.stubbornness_high, args.randomness_low, args.randomness_high, args.unstuckness_low, args.unstuckness_high)
 
     # create trial setup name based on parameters
     trial_setup_name = "max_iterations_%d-cliques_%d-nodes_per_clique_%d-colors_%d-q_%.2f" % (args.max_iterations, args.cliques, args.nodes_per_clique, args.colors, args.q)
@@ -197,9 +198,15 @@ def run_trial(args):
             # calculate the probability that each neighbor selects a given color
             iterations_in_memory = args.memory if iteration > args.memory else iteration
             neighbor_node_color_probability = neighbor_node_color_history_no_zeroes/(args.colors+iterations_in_memory+1)
-            math.isclose(np.sum(neighbor_node_color_probability), 1.0) # confirm that the probabilities add to 1
-            # calculate the probability that all neighbors select a given color
-            neighbor_column_node_color_probability = np.prod(neighbor_node_color_probability, axis=0)
+
+            if args.sum:
+                # calculate the weighted sum of the probabilites that each neighbor selects a given color
+                weight_arr = adjacency_matrix[i] # current default weights of 1 if in adjacency matrix
+                neighbor_column_node_color_probability = np.average(neighbor_node_color_probability, axis=0, weights=weight_arr)
+                assert math.isclose(np.sum(neighbor_column_node_color_probability), 1.0) # confirm that the probabilities add to 1
+            else:
+                # calculate the probability that all neighbors select a given color
+                neighbor_column_node_color_probability = np.prod(neighbor_node_color_probability, axis=0)
 
             # if node is randomly unstuck, ignore the highest probability options
             is_unstuck = random.random() < unstuckness[i]
@@ -322,6 +329,7 @@ if __name__ == '__main__':
 
     # model parameters
     parser.add_argument("--probability_matching", action=argparse.BooleanOptionalAction)
+    parser.add_argument("--sum", action=argparse.BooleanOptionalAction)
     parser.add_argument("--memory", type=int, default=0)
     parser.add_argument("--stubbornness_low", type=float, default=0.0)
     parser.add_argument("--stubbornness_high", type=float, default=0.0)
