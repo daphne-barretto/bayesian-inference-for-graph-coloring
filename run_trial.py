@@ -4,6 +4,7 @@ from datetime import date
 
 import argparse
 import csv
+import math
 import matplotlib.animation as animation
 import matplotlib.pyplot as plt
 import networkx as nx
@@ -194,7 +195,9 @@ def run_trial(args):
             # add one to every value to avoid multiplying by zero
             neighbor_node_color_history_no_zeroes = np.asarray([x+1 for x in neighbor_node_color_history])
             # calculate the probability that each neighbor selects a given color
-            neighbor_node_color_probability = neighbor_node_color_history_no_zeroes/(args.colors+iteration+1)
+            iterations_in_memory = args.memory if iteration > args.memory else iteration
+            neighbor_node_color_probability = neighbor_node_color_history_no_zeroes/(args.colors+iterations_in_memory+1)
+            math.isclose(np.sum(neighbor_node_color_probability), 1.0) # confirm that the probabilities add to 1
             # calculate the probability that all neighbors select a given color
             neighbor_column_node_color_probability = np.prod(neighbor_node_color_probability, axis=0)
 
