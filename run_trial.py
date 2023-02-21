@@ -81,7 +81,8 @@ def run_trial(args):
     # create model name based on parameters 
     decision_making = "probability_matching" if args.probability_matching else "deterministic"
     decision_making_calculation = "sum" if args.sum else "product"
-    model_name = "%s-%s-memory_%d-stubbornness_%.2f_%.2f-randomness_%.2f_%.2f-unstuckness_%.2f_%.2f" % (decision_making_calculation, decision_making, args.memory, args.stubbornness_low, args.stubbornness_high, args.randomness_low, args.randomness_high, args.unstuckness_low, args.unstuckness_high)
+    transparent = "-transparent" if args.transparent else ""
+    model_name = "%s-%s%s-memory_%d-stubbornness_%.2f_%.2f-randomness_%.2f_%.2f-unstuckness_%.2f_%.2f" % (decision_making_calculation, decision_making, transparent, args.memory, args.stubbornness_low, args.stubbornness_high, args.randomness_low, args.randomness_high, args.unstuckness_low, args.unstuckness_high)
 
     # create trial setup name based on parameters
     trial_setup_name = "max_iterations_%d-cliques_%d-nodes_per_clique_%d-colors_%d-q_%.2f" % (args.max_iterations, args.cliques, args.nodes_per_clique, args.colors, args.q)
@@ -238,6 +239,14 @@ def run_trial(args):
                 # randomly select one node from those with the highest probability
                 current_node_colors[i] = random.choice(columns_with_highest_probability)[0]
 
+        # if set to transparent, change current_node_colors to be the one matching the most neighbors
+        if args.transparent:
+            current_node_colors_copy = current_node_colors.copy()
+            for i in range(num_nodes):
+                current_neighbor_colors_count = np.bincount(current_node_colors_copy, weights=adjacency_matrix[i])
+                current_node_colors_most_neighbors = np.argwhere(current_neighbor_colors_count == np.amax(current_neighbor_colors_count))
+                current_node_colors[i] = random.choice(current_node_colors_most_neighbors)[0]
+
         # update color history counts, color history, component history with each iteration
         update_color_history_counts(current_node_colors, node_color_history_counts)
         update_color_history(current_node_colors, node_color_history)
@@ -330,6 +339,7 @@ if __name__ == '__main__':
     # model parameters
     parser.add_argument("--probability_matching", action=argparse.BooleanOptionalAction)
     parser.add_argument("--sum", action=argparse.BooleanOptionalAction)
+    parser.add_argument("--transparent", action=argparse.BooleanOptionalAction)
     parser.add_argument("--memory", type=int, default=0)
     parser.add_argument("--stubbornness_low", type=float, default=0.0)
     parser.add_argument("--stubbornness_high", type=float, default=0.0)
