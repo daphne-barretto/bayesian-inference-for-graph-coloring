@@ -80,9 +80,11 @@ def run_trial(args):
 
     # create model name based on parameters 
     decision_making = "probability_matching" if args.probability_matching else "deterministic"
-    decision_making_calculation = "sum" if args.sum else "product"
+    decision_making_calculation = "sum-" if args.sum else "product-"
     transparent = "-transparent" if args.transparent else ""
-    model_name = "%s-%s%s-memory_%d-stubbornness_%.2f_%.2f-randomness_%.2f_%.2f-unstuckness_%.2f_%.2f" % (decision_making_calculation, decision_making, transparent, args.memory, args.stubbornness_low, args.stubbornness_high, args.randomness_low, args.randomness_high, args.unstuckness_low, args.unstuckness_high)
+    model_name = "%s%s%s-memory_%d-stubbornness_%.2f_%.2f-randomness_%.2f_%.2f-unstuckness_%.2f_%.2f" % (decision_making_calculation, decision_making, transparent, args.memory, args.stubbornness_low, args.stubbornness_high, args.randomness_low, args.randomness_high, args.unstuckness_low, args.unstuckness_high)
+    if args.averaging_system:
+        model_name = "averaging_system-%s" % decision_making
 
     # create trial setup name based on parameters
     trial_setup_name = "max_iterations_%d-cliques_%d-nodes_per_clique_%d-colors_%d-q_%.2f" % (args.max_iterations, args.cliques, args.nodes_per_clique, args.colors, args.q)
@@ -141,6 +143,20 @@ def run_trial(args):
     node_color_history_counts_total = []
     node_color_history = []
 
+    # if running averaging system, initialize averaging system node vectors and re-initialize current node colors
+    averaging_system_node_vectors = []
+    if args.averaging_system:
+        for i in range(num_nodes):
+            averaging_system_node_vectors.append(np.random.dirichlet(np.ones(args.colors),size=1)[0].tolist())
+            # print("averaging_system_node_vectors[i]", averaging_system_node_vectors[i])
+            assert math.isclose(np.sum(averaging_system_node_vectors[i]), 1.0) # confirm that the probabilities add to 1
+
+            if args.probability_matching:
+                current_node_colors[i] = np.random.choice(np.arange(args.colors), p=averaging_system_node_vectors[i])
+            else:
+                columns_with_highest_probability = np.argwhere(averaging_system_node_vectors[i] == np.amax(averaging_system_node_vectors[i]))
+                current_node_colors[i] = random.choice(columns_with_highest_probability)[0]
+
     # initialize biggest component color history and component proportion history
     biggest_component_color_history = []
     component_proportion_history = []
@@ -183,8 +199,29 @@ def run_trial(args):
         if iteration == 0 and current_node_colors.count(current_node_colors[0]) == len(current_node_colors):
             return 0, current_node_colors.count(current_node_colors[0]) == len(current_node_colors)
 
+        prev_averaging_system_node_vectors = averaging_system_node_vectors.copy()
+        # print(prev_averaging_system_node_vectors)
+
         # every node goes through the color decision each iteration
         for i in range(num_nodes):
+
+            # if running an averaging system
+            if args.averaging_system:
+                # print("prev_averaging_system_node_vectors", prev_averaging_system_node_vectors)
+                # print("adjacency_matrix[i]", adjacency_matrix[i])
+                averaging_system_neighbor_node_vectors = prev_averaging_system_node_vectors * adjacency_matrix[i].reshape((num_nodes, 1))
+                # print("averaging_system_neighbor_node_vectors", averaging_system_neighbor_node_vectors)
+                summed_node_vectors = np.sum(averaging_system_neighbor_node_vectors, axis=0) + prev_averaging_system_node_vectors[i]
+                # print("summed_node_vectors", summed_node_vectors)
+                averaging_system_node_vectors[i] = summed_node_vectors / np.sum(summed_node_vectors)
+                # print("averaging_system_node_vectors[i]", averaging_system_node_vectors[i])
+
+                if args.probability_matching:
+                    current_node_colors[i] = np.random.choice(np.arange(args.colors), p=averaging_system_node_vectors[i])
+                else:
+                    columns_with_highest_probability = np.argwhere(averaging_system_node_vectors[i] == np.amax(averaging_system_node_vectors[i]))
+                    current_node_colors[i] = random.choice(columns_with_highest_probability)[0]
+                continue
 
             # if node is randomly random, select a random color
             is_random = random.random() < randomness[i]
@@ -340,6 +377,7 @@ if __name__ == '__main__':
     parser.add_argument("--probability_matching", action=argparse.BooleanOptionalAction)
     parser.add_argument("--sum", action=argparse.BooleanOptionalAction)
     parser.add_argument("--transparent", action=argparse.BooleanOptionalAction)
+    parser.add_argument("--averaging_system", action=argparse.BooleanOptionalAction)
     parser.add_argument("--memory", type=int, default=0)
     parser.add_argument("--stubbornness_low", type=float, default=0.0)
     parser.add_argument("--stubbornness_high", type=float, default=0.0)
