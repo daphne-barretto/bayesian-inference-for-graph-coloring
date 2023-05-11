@@ -1,733 +1,731 @@
-rrrrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrrrb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrrrg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrrbr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrrbb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrrbg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrrgr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrrgb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrrgg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrbrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrbrb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrbrg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrbbr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrbbb,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0]]",True,True
-rrrbbg,K=1,iterations=1000,"[[492, 508, 0], [1000, 0, 0]]",True,False
-rrrbgr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrbgb,K=1,iterations=1000,"[[507, 493, 0], [1000, 0, 0]]",True,False
-rrrbgg,K=1,iterations=1000,"[[494, 0, 506], [1000, 0, 0]]",True,False
-rrrgrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrgrb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrgrg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrgbr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrgbb,K=1,iterations=1000,"[[541, 459, 0], [1000, 0, 0]]",True,False
-rrrgbg,K=1,iterations=1000,"[[505, 0, 495], [1000, 0, 0]]",True,False
-rrrggr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrrggb,K=1,iterations=1000,"[[515, 0, 485], [1000, 0, 0]]",True,False
-rrrggg,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0]]",True,True
-rrbrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrbrrb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrbrrg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrbrbr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrbrbb,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0]]",True,True
-rrbrbg,K=1,iterations=1000,"[[536, 464, 0], [1000, 0, 0]]",True,False
-rrbrgr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrbrgb,K=1,iterations=1000,"[[523, 477, 0], [1000, 0, 0]]",True,False
-rrbrgg,K=1,iterations=1000,"[[489, 0, 511], [1000, 0, 0]]",True,False
-rrbbrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrbbrb,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0]]",True,True
-rrbbrg,K=1,iterations=1000,"[[493, 507, 0], [1000, 0, 0]]",True,False
-rrbbbr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0]]",True,True
-rrbbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-rrbbbg,K=1,iterations=1000,"[[0, 1000, 0], [726, 213, 61]]",True,False
-rrbbgr,K=1,iterations=1000,"[[514, 486, 0], [1000, 0, 0]]",True,False
-rrbbgb,K=1,iterations=1000,"[[0, 1000, 0], [498, 502, 0]]",True,False
-rrbbgg,K=1,iterations=1000,"[[0, 501, 499], [830, 92, 78]]",True,False
-rrbgrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrbgrb,K=1,iterations=1000,"[[474, 526, 0], [1000, 0, 0]]",True,False
-rrbgrg,K=1,iterations=1000,"[[504, 0, 496], [1000, 0, 0]]",True,False
-rrbgbr,K=1,iterations=1000,"[[514, 486, 0], [1000, 0, 0]]",True,False
-rrbgbb,K=1,iterations=1000,"[[0, 1000, 0], [512, 488, 0]]",True,False
-rrbgbg,K=1,iterations=1000,"[[0, 486, 514], [635, 192, 173]]",True,False
-rrbggr,K=1,iterations=1000,"[[507, 0, 493], [1000, 0, 0]]",True,False
-rrbggb,K=1,iterations=1000,"[[0, 466, 534], [738, 209, 53]]",True,False
-rrbggg,K=1,iterations=1000,"[[0, 0, 1000], [721, 64, 215]]",True,False
-rrgrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrgrrb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrgrrg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrgrbr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrgrbb,K=1,iterations=1000,"[[474, 526, 0], [1000, 0, 0]]",True,False
-rrgrbg,K=1,iterations=1000,"[[490, 0, 510], [1000, 0, 0]]",True,False
-rrgrgr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrgrgb,K=1,iterations=1000,"[[503, 0, 497], [1000, 0, 0]]",True,False
-rrgrgg,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0]]",True,True
-rrgbrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrgbrb,K=1,iterations=1000,"[[496, 504, 0], [1000, 0, 0]]",True,False
-rrgbrg,K=1,iterations=1000,"[[488, 0, 512], [1000, 0, 0]]",True,False
-rrgbbr,K=1,iterations=1000,"[[504, 496, 0], [1000, 0, 0]]",True,False
-rrgbbb,K=1,iterations=1000,"[[0, 1000, 0], [717, 225, 58]]",True,False
-rrgbbg,K=1,iterations=1000,"[[0, 493, 507], [703, 57, 240]]",True,False
-rrgbgr,K=1,iterations=1000,"[[525, 0, 475], [1000, 0, 0]]",True,False
-rrgbgb,K=1,iterations=1000,"[[0, 510, 490], [669, 159, 172]]",True,False
-rrgbgg,K=1,iterations=1000,"[[0, 0, 1000], [513, 0, 487]]",True,False
-rrggrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rrggrb,K=1,iterations=1000,"[[524, 0, 476], [1000, 0, 0]]",True,False
-rrggrg,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0]]",True,True
-rrggbr,K=1,iterations=1000,"[[490, 0, 510], [1000, 0, 0]]",True,False
-rrggbb,K=1,iterations=1000,"[[0, 488, 512], [815, 88, 97]]",True,False
-rrggbg,K=1,iterations=1000,"[[0, 0, 1000], [500, 0, 500]]",True,False
-rrgggr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0]]",True,True
-rrgggb,K=1,iterations=1000,"[[0, 0, 1000], [705, 68, 227]]",True,False
-rrgggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-rbrrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rbrrrb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rbrrrg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rbrrbr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rbrrbb,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0]]",True,True
-rbrrbg,K=1,iterations=1000,"[[484, 516, 0], [1000, 0, 0]]",True,False
-rbrrgr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rbrrgb,K=1,iterations=1000,"[[513, 487, 0], [1000, 0, 0]]",True,False
-rbrrgg,K=1,iterations=1000,"[[491, 0, 509], [1000, 0, 0]]",True,False
-rbrbrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rbrbrb,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0]]",True,True
-rbrbrg,K=1,iterations=1000,"[[505, 495, 0], [1000, 0, 0]]",True,False
-rbrbbr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0]]",True,True
-rbrbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-rbrbbg,K=1,iterations=1000,"[[0, 1000, 0], [461, 539, 0]]",True,False
-rbrbgr,K=1,iterations=1000,"[[530, 470, 0], [1000, 0, 0]]",True,False
-rbrbgb,K=1,iterations=1000,"[[0, 1000, 0], [512, 488, 0]]",True,False
-rbrbgg,K=1,iterations=1000,"[[0, 494, 506], [708, 234, 58]]",True,False
-rbrgrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rbrgrb,K=1,iterations=1000,"[[523, 477, 0], [1000, 0, 0]]",True,False
-rbrgrg,K=1,iterations=1000,"[[526, 0, 474], [1000, 0, 0]]",True,False
-rbrgbr,K=1,iterations=1000,"[[525, 475, 0], [1000, 0, 0]]",True,False
-rbrgbb,K=1,iterations=1000,"[[0, 1000, 0], [707, 229, 64]]",True,False
-rbrgbg,K=1,iterations=1000,"[[0, 480, 520], [673, 166, 161]]",True,False
-rbrggr,K=1,iterations=1000,"[[456, 0, 544], [1000, 0, 0]]",True,False
-rbrggb,K=1,iterations=1000,"[[0, 495, 505], [810, 97, 93]]",True,False
-rbrggg,K=1,iterations=1000,"[[0, 0, 1000], [731, 49, 220]]",True,False
-rbbrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rbbrrb,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0]]",True,True
-rbbrrg,K=1,iterations=1000,"[[495, 505, 0], [1000, 0, 0]]",True,False
-rbbrbr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0]]",True,True
-rbbrbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-rbbrbg,K=1,iterations=1000,"[[0, 1000, 0], [504, 496, 0]]",True,False
-rbbrgr,K=1,iterations=1000,"[[486, 514, 0], [1000, 0, 0]]",True,False
-rbbrgb,K=1,iterations=1000,"[[0, 1000, 0], [719, 226, 55]]",True,False
-rbbrgg,K=1,iterations=1000,"[[0, 498, 502], [820, 91, 89]]",True,False
-rbbbrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0]]",True,True
-rbbbrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-rbbbrg,K=1,iterations=1000,"[[0, 1000, 0], [742, 208, 50]]",True,False
-rbbbbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-rbbbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-rbbbbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-rbbbgr,K=1,iterations=1000,"[[0, 1000, 0], [724, 219, 57]]",True,False
-rbbbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-rbbbgg,K=1,iterations=1000,"[[0, 1000, 0], [229, 543, 228]]",True,False
-rbbgrr,K=1,iterations=1000,"[[462, 538, 0], [1000, 0, 0]]",True,False
-rbbgrb,K=1,iterations=1000,"[[0, 1000, 0], [712, 217, 71]]",True,False
-rbbgrg,K=1,iterations=1000,"[[0, 500, 500], [701, 70, 229]]",True,False
-rbbgbr,K=1,iterations=1000,"[[0, 1000, 0], [523, 477, 0]]",True,False
-rbbgbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-rbbgbg,K=1,iterations=1000,"[[0, 1000, 0], [54, 715, 231]]",True,False
-rbbggr,K=1,iterations=1000,"[[0, 517, 483], [822, 86, 92]]",True,False
-rbbggb,K=1,iterations=1000,"[[0, 1000, 0], [222, 550, 228]]",True,False
-rbbggg,K=1,iterations=1000,"[[0, 0, 1000], [212, 232, 556]]",True,False
-rbgrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rbgrrb,K=1,iterations=1000,"[[484, 516, 0], [1000, 0, 0]]",True,False
-rbgrrg,K=1,iterations=1000,"[[516, 0, 484], [1000, 0, 0]]",True,False
-rbgrbr,K=1,iterations=1000,"[[500, 500, 0], [1000, 0, 0]]",True,False
-rbgrbb,K=1,iterations=1000,"[[0, 1000, 0], [746, 202, 52]]",True,False
-rbgrbg,K=1,iterations=1000,"[[0, 505, 495], [650, 174, 176]]",True,False
-rbgrgr,K=1,iterations=1000,"[[475, 0, 525], [1000, 0, 0]]",True,False
-rbgrgb,K=1,iterations=1000,"[[0, 473, 527], [724, 63, 213]]",True,False
-rbgrgg,K=1,iterations=1000,"[[0, 0, 1000], [512, 0, 488]]",True,False
-rbgbrr,K=1,iterations=1000,"[[522, 478, 0], [1000, 0, 0]]",True,False
-rbgbrb,K=1,iterations=1000,"[[0, 1000, 0], [507, 493, 0]]",True,False
-rbgbrg,K=1,iterations=1000,"[[0, 497, 503], [661, 182, 157]]",True,False
-rbgbbr,K=1,iterations=1000,"[[0, 1000, 0], [482, 518, 0]]",True,False
-rbgbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-rbgbbg,K=1,iterations=1000,"[[0, 1000, 0], [61, 702, 237]]",True,False
-rbgbgr,K=1,iterations=1000,"[[0, 487, 513], [688, 154, 158]]",True,False
-rbgbgb,K=1,iterations=1000,"[[0, 1000, 0], [59, 713, 228]]",True,False
-rbgbgg,K=1,iterations=1000,"[[0, 0, 1000], [64, 229, 707]]",True,False
-rbggrr,K=1,iterations=1000,"[[485, 0, 515], [1000, 0, 0]]",True,False
-rbggrb,K=1,iterations=1000,"[[0, 524, 476], [816, 93, 91]]",True,False
-rbggrg,K=1,iterations=1000,"[[0, 0, 1000], [503, 0, 497]]",True,False
-rbggbr,K=1,iterations=1000,"[[0, 492, 508], [724, 225, 51]]",True,False
-rbggbb,K=1,iterations=1000,"[[0, 1000, 0], [222, 558, 220]]",True,False
-rbggbg,K=1,iterations=1000,"[[0, 0, 1000], [56, 222, 722]]",True,False
-rbgggr,K=1,iterations=1000,"[[0, 0, 1000], [715, 62, 223]]",True,False
-rbgggb,K=1,iterations=1000,"[[0, 0, 1000], [201, 227, 572]]",True,False
-rbgggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-rgrrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rgrrrb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rgrrrg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rgrrbr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rgrrbb,K=1,iterations=1000,"[[517, 483, 0], [1000, 0, 0]]",True,False
-rgrrbg,K=1,iterations=1000,"[[490, 0, 510], [1000, 0, 0]]",True,False
-rgrrgr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rgrrgb,K=1,iterations=1000,"[[520, 0, 480], [1000, 0, 0]]",True,False
-rgrrgg,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0]]",True,True
-rgrbrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rgrbrb,K=1,iterations=1000,"[[507, 493, 0], [1000, 0, 0]]",True,False
-rgrbrg,K=1,iterations=1000,"[[495, 0, 505], [1000, 0, 0]]",True,False
-rgrbbr,K=1,iterations=1000,"[[494, 506, 0], [1000, 0, 0]]",True,False
-rgrbbb,K=1,iterations=1000,"[[0, 1000, 0], [710, 226, 64]]",True,False
-rgrbbg,K=1,iterations=1000,"[[0, 512, 488], [805, 108, 87]]",True,False
-rgrbgr,K=1,iterations=1000,"[[520, 0, 480], [1000, 0, 0]]",True,False
-rgrbgb,K=1,iterations=1000,"[[0, 541, 459], [662, 159, 179]]",True,False
-rgrbgg,K=1,iterations=1000,"[[0, 0, 1000], [728, 52, 220]]",True,False
-rgrgrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rgrgrb,K=1,iterations=1000,"[[491, 0, 509], [1000, 0, 0]]",True,False
-rgrgrg,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0]]",True,True
-rgrgbr,K=1,iterations=1000,"[[505, 0, 495], [1000, 0, 0]]",True,False
-rgrgbb,K=1,iterations=1000,"[[0, 496, 504], [712, 60, 228]]",True,False
-rgrgbg,K=1,iterations=1000,"[[0, 0, 1000], [497, 0, 503]]",True,False
-rgrggr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0]]",True,True
-rgrggb,K=1,iterations=1000,"[[0, 0, 1000], [520, 0, 480]]",True,False
-rgrggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-rgbrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rgbrrb,K=1,iterations=1000,"[[504, 496, 0], [1000, 0, 0]]",True,False
-rgbrrg,K=1,iterations=1000,"[[519, 0, 481], [1000, 0, 0]]",True,False
-rgbrbr,K=1,iterations=1000,"[[489, 511, 0], [1000, 0, 0]]",True,False
-rgbrbb,K=1,iterations=1000,"[[0, 1000, 0], [524, 476, 0]]",True,False
-rgbrbg,K=1,iterations=1000,"[[0, 485, 515], [733, 225, 42]]",True,False
-rgbrgr,K=1,iterations=1000,"[[467, 0, 533], [1000, 0, 0]]",True,False
-rgbrgb,K=1,iterations=1000,"[[0, 500, 500], [668, 166, 166]]",True,False
-rgbrgg,K=1,iterations=1000,"[[0, 0, 1000], [728, 55, 217]]",True,False
-rgbbrr,K=1,iterations=1000,"[[504, 496, 0], [1000, 0, 0]]",True,False
-rgbbrb,K=1,iterations=1000,"[[0, 1000, 0], [505, 495, 0]]",True,False
-rgbbrg,K=1,iterations=1000,"[[0, 497, 503], [816, 82, 102]]",True,False
-rgbbbr,K=1,iterations=1000,"[[0, 1000, 0], [719, 226, 55]]",True,False
-rgbbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-rgbbbg,K=1,iterations=1000,"[[0, 1000, 0], [194, 548, 258]]",True,False
-rgbbgr,K=1,iterations=1000,"[[0, 479, 521], [732, 48, 220]]",True,False
-rgbbgb,K=1,iterations=1000,"[[0, 1000, 0], [65, 715, 220]]",True,False
-rgbbgg,K=1,iterations=1000,"[[0, 0, 1000], [241, 220, 539]]",True,False
-rgbgrr,K=1,iterations=1000,"[[500, 0, 500], [1000, 0, 0]]",True,False
-rgbgrb,K=1,iterations=1000,"[[0, 518, 482], [663, 182, 155]]",True,False
-rgbgrg,K=1,iterations=1000,"[[0, 0, 1000], [499, 0, 501]]",True,False
-rgbgbr,K=1,iterations=1000,"[[0, 490, 510], [658, 170, 172]]",True,False
-rgbgbb,K=1,iterations=1000,"[[0, 1000, 0], [54, 718, 228]]",True,False
-rgbgbg,K=1,iterations=1000,"[[0, 0, 1000], [55, 207, 738]]",True,False
-rgbggr,K=1,iterations=1000,"[[0, 0, 1000], [510, 0, 490]]",True,False
-rgbggb,K=1,iterations=1000,"[[0, 0, 1000], [46, 215, 739]]",True,False
-rgbggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-rggrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-rggrrb,K=1,iterations=1000,"[[533, 0, 467], [1000, 0, 0]]",True,False
-rggrrg,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0]]",True,True
-rggrbr,K=1,iterations=1000,"[[520, 0, 480], [1000, 0, 0]]",True,False
-rggrbb,K=1,iterations=1000,"[[0, 515, 485], [807, 99, 94]]",True,False
-rggrbg,K=1,iterations=1000,"[[0, 0, 1000], [706, 71, 223]]",True,False
-rggrgr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0]]",True,True
-rggrgb,K=1,iterations=1000,"[[0, 0, 1000], [523, 0, 477]]",True,False
-rggrgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-rggbrr,K=1,iterations=1000,"[[504, 0, 496], [1000, 0, 0]]",True,False
-rggbrb,K=1,iterations=1000,"[[0, 490, 510], [723, 222, 55]]",True,False
-rggbrg,K=1,iterations=1000,"[[0, 0, 1000], [731, 46, 223]]",True,False
-rggbbr,K=1,iterations=1000,"[[0, 491, 509], [786, 101, 113]]",True,False
-rggbbb,K=1,iterations=1000,"[[0, 1000, 0], [222, 534, 244]]",True,False
-rggbbg,K=1,iterations=1000,"[[0, 0, 1000], [214, 203, 583]]",True,False
-rggbgr,K=1,iterations=1000,"[[0, 0, 1000], [494, 0, 506]]",True,False
-rggbgb,K=1,iterations=1000,"[[0, 0, 1000], [60, 222, 718]]",True,False
-rggbgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-rgggrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0]]",True,True
-rgggrb,K=1,iterations=1000,"[[0, 0, 1000], [693, 64, 243]]",True,False
-rgggrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-rgggbr,K=1,iterations=1000,"[[0, 0, 1000], [724, 58, 218]]",True,False
-rgggbb,K=1,iterations=1000,"[[0, 0, 1000], [219, 220, 561]]",True,False
-rgggbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-rggggr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-rggggb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-rggggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-brrrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-brrrrb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-brrrrg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-brrrbr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-brrrbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0]]",True,True
-brrrbg,K=1,iterations=1000,"[[1000, 0, 0], [227, 707, 66]]",True,False
-brrrgr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-brrrgb,K=1,iterations=1000,"[[1000, 0, 0], [208, 740, 52]]",True,False
-brrrgg,K=1,iterations=1000,"[[1000, 0, 0], [545, 228, 227]]",True,False
-brrbrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-brrbrb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0]]",True,True
-brrbrg,K=1,iterations=1000,"[[1000, 0, 0], [521, 479, 0]]",True,False
-brrbbr,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0]]",True,True
-brrbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-brrbbg,K=1,iterations=1000,"[[504, 496, 0], [0, 1000, 0]]",True,False
-brrbgr,K=1,iterations=1000,"[[1000, 0, 0], [225, 730, 45]]",True,False
-brrbgb,K=1,iterations=1000,"[[511, 489, 0], [0, 1000, 0]]",True,False
-brrbgg,K=1,iterations=1000,"[[517, 0, 483], [91, 816, 93]]",True,False
-brrgrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-brrgrb,K=1,iterations=1000,"[[1000, 0, 0], [488, 512, 0]]",True,False
-brrgrg,K=1,iterations=1000,"[[1000, 0, 0], [704, 67, 229]]",True,False
-brrgbr,K=1,iterations=1000,"[[1000, 0, 0], [230, 715, 55]]",True,False
-brrgbb,K=1,iterations=1000,"[[508, 492, 0], [0, 1000, 0]]",True,False
-brrgbg,K=1,iterations=1000,"[[510, 0, 490], [57, 727, 216]]",True,False
-brrggr,K=1,iterations=1000,"[[1000, 0, 0], [572, 195, 233]]",True,False
-brrggb,K=1,iterations=1000,"[[511, 0, 489], [74, 833, 93]]",True,False
-brrggg,K=1,iterations=1000,"[[0, 0, 1000], [213, 219, 568]]",True,False
-brbrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-brbrrb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0]]",True,True
-brbrrg,K=1,iterations=1000,"[[1000, 0, 0], [505, 495, 0]]",True,False
-brbrbr,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0]]",True,True
-brbrbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-brbrbg,K=1,iterations=1000,"[[514, 486, 0], [0, 1000, 0]]",True,False
-brbrgr,K=1,iterations=1000,"[[1000, 0, 0], [509, 491, 0]]",True,False
-brbrgb,K=1,iterations=1000,"[[469, 531, 0], [0, 1000, 0]]",True,False
-brbrgg,K=1,iterations=1000,"[[501, 0, 499], [245, 699, 56]]",True,False
-brbbrr,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0]]",True,True
-brbbrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-brbbrg,K=1,iterations=1000,"[[511, 489, 0], [0, 1000, 0]]",True,False
-brbbbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-brbbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-brbbbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-brbbgr,K=1,iterations=1000,"[[488, 512, 0], [0, 1000, 0]]",True,False
-brbbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-brbbgg,K=1,iterations=1000,"[[0, 495, 505], [0, 1000, 0]]",True,False
-brbgrr,K=1,iterations=1000,"[[1000, 0, 0], [221, 725, 54]]",True,False
-brbgrb,K=1,iterations=1000,"[[501, 499, 0], [0, 1000, 0]]",True,False
-brbgrg,K=1,iterations=1000,"[[530, 0, 470], [159, 678, 163]]",True,False
-brbgbr,K=1,iterations=1000,"[[499, 501, 0], [0, 1000, 0]]",True,False
-brbgbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-brbgbg,K=1,iterations=1000,"[[0, 520, 480], [0, 1000, 0]]",True,False
-brbggr,K=1,iterations=1000,"[[500, 0, 500], [100, 810, 90]]",True,False
-brbggb,K=1,iterations=1000,"[[0, 493, 507], [0, 1000, 0]]",True,False
-brbggg,K=1,iterations=1000,"[[0, 0, 1000], [54, 710, 236]]",True,False
-brgrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-brgrrb,K=1,iterations=1000,"[[1000, 0, 0], [496, 504, 0]]",True,False
-brgrrg,K=1,iterations=1000,"[[1000, 0, 0], [745, 45, 210]]",True,False
-brgrbr,K=1,iterations=1000,"[[1000, 0, 0], [502, 498, 0]]",True,False
-brgrbb,K=1,iterations=1000,"[[480, 520, 0], [0, 1000, 0]]",True,False
-brgrbg,K=1,iterations=1000,"[[517, 0, 483], [153, 673, 174]]",True,False
-brgrgr,K=1,iterations=1000,"[[1000, 0, 0], [721, 55, 224]]",True,False
-brgrgb,K=1,iterations=1000,"[[501, 0, 499], [156, 655, 189]]",True,False
-brgrgg,K=1,iterations=1000,"[[0, 0, 1000], [222, 53, 725]]",True,False
-brgbrr,K=1,iterations=1000,"[[1000, 0, 0], [221, 725, 54]]",True,False
-brgbrb,K=1,iterations=1000,"[[500, 500, 0], [0, 1000, 0]]",True,False
-brgbrg,K=1,iterations=1000,"[[481, 0, 519], [160, 675, 165]]",True,False
-brgbbr,K=1,iterations=1000,"[[491, 509, 0], [0, 1000, 0]]",True,False
-brgbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-brgbbg,K=1,iterations=1000,"[[0, 516, 484], [0, 1000, 0]]",True,False
-brgbgr,K=1,iterations=1000,"[[499, 0, 501], [55, 737, 208]]",True,False
-brgbgb,K=1,iterations=1000,"[[0, 506, 494], [0, 1000, 0]]",True,False
-brgbgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 527, 473]]",True,False
-brggrr,K=1,iterations=1000,"[[1000, 0, 0], [527, 230, 243]]",True,False
-brggrb,K=1,iterations=1000,"[[510, 0, 490], [219, 721, 60]]",True,False
-brggrg,K=1,iterations=1000,"[[0, 0, 1000], [228, 48, 724]]",True,False
-brggbr,K=1,iterations=1000,"[[514, 0, 486], [101, 813, 86]]",True,False
-brggbb,K=1,iterations=1000,"[[0, 489, 511], [0, 1000, 0]]",True,False
-brggbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 498, 502]]",True,False
-brgggr,K=1,iterations=1000,"[[0, 0, 1000], [228, 222, 550]]",True,False
-brgggb,K=1,iterations=1000,"[[0, 0, 1000], [58, 715, 227]]",True,False
-brgggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-bbrrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-bbrrrb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0]]",True,True
-bbrrrg,K=1,iterations=1000,"[[1000, 0, 0], [237, 719, 44]]",True,False
-bbrrbr,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0]]",True,True
-bbrrbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbrrbg,K=1,iterations=1000,"[[496, 504, 0], [0, 1000, 0]]",True,False
-bbrrgr,K=1,iterations=1000,"[[1000, 0, 0], [486, 514, 0]]",True,False
-bbrrgb,K=1,iterations=1000,"[[500, 500, 0], [0, 1000, 0]]",True,False
-bbrrgg,K=1,iterations=1000,"[[514, 0, 486], [79, 841, 80]]",True,False
-bbrbrr,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0]]",True,True
-bbrbrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbrbrg,K=1,iterations=1000,"[[484, 516, 0], [0, 1000, 0]]",True,False
-bbrbbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbrbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbrbbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbrbgr,K=1,iterations=1000,"[[500, 500, 0], [0, 1000, 0]]",True,False
-bbrbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbrbgg,K=1,iterations=1000,"[[0, 501, 499], [0, 1000, 0]]",True,False
-bbrgrr,K=1,iterations=1000,"[[1000, 0, 0], [506, 494, 0]]",True,False
-bbrgrb,K=1,iterations=1000,"[[515, 485, 0], [0, 1000, 0]]",True,False
-bbrgrg,K=1,iterations=1000,"[[493, 0, 507], [147, 715, 138]]",True,False
-bbrgbr,K=1,iterations=1000,"[[454, 546, 0], [0, 1000, 0]]",True,False
-bbrgbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbrgbg,K=1,iterations=1000,"[[0, 501, 499], [0, 1000, 0]]",True,False
-bbrggr,K=1,iterations=1000,"[[488, 0, 512], [242, 697, 61]]",True,False
-bbrggb,K=1,iterations=1000,"[[0, 505, 495], [0, 1000, 0]]",True,False
-bbrggg,K=1,iterations=1000,"[[0, 0, 1000], [55, 706, 239]]",True,False
-bbbrrr,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0]]",True,True
-bbbrrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbrrg,K=1,iterations=1000,"[[479, 521, 0], [0, 1000, 0]]",True,False
-bbbrbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbrbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbrbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbrgr,K=1,iterations=1000,"[[530, 470, 0], [0, 1000, 0]]",True,False
-bbbrgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbrgg,K=1,iterations=1000,"[[0, 490, 510], [0, 1000, 0]]",True,False
-bbbbrr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbbrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbbrg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbbbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbbbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbbgr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbbgg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbgrr,K=1,iterations=1000,"[[475, 525, 0], [0, 1000, 0]]",True,False
-bbbgrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbgrg,K=1,iterations=1000,"[[0, 510, 490], [0, 1000, 0]]",True,False
-bbbgbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbgbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbgbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbggr,K=1,iterations=1000,"[[0, 507, 493], [0, 1000, 0]]",True,False
-bbbggb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbbggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0]]",True,True
-bbgrrr,K=1,iterations=1000,"[[1000, 0, 0], [211, 726, 63]]",True,False
-bbgrrb,K=1,iterations=1000,"[[506, 494, 0], [0, 1000, 0]]",True,False
-bbgrrg,K=1,iterations=1000,"[[512, 0, 488], [47, 718, 235]]",True,False
-bbgrbr,K=1,iterations=1000,"[[521, 479, 0], [0, 1000, 0]]",True,False
-bbgrbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbgrbg,K=1,iterations=1000,"[[0, 470, 530], [0, 1000, 0]]",True,False
-bbgrgr,K=1,iterations=1000,"[[525, 0, 475], [172, 651, 177]]",True,False
-bbgrgb,K=1,iterations=1000,"[[0, 477, 523], [0, 1000, 0]]",True,False
-bbgrgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 494, 506]]",True,False
-bbgbrr,K=1,iterations=1000,"[[498, 502, 0], [0, 1000, 0]]",True,False
-bbgbrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbgbrg,K=1,iterations=1000,"[[0, 497, 503], [0, 1000, 0]]",True,False
-bbgbbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbgbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbgbbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbgbgr,K=1,iterations=1000,"[[0, 504, 496], [0, 1000, 0]]",True,False
-bbgbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbgbgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0]]",True,True
-bbggrr,K=1,iterations=1000,"[[513, 0, 487], [97, 816, 87]]",True,False
-bbggrb,K=1,iterations=1000,"[[0, 478, 522], [0, 1000, 0]]",True,False
-bbggrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 500, 500]]",True,False
-bbggbr,K=1,iterations=1000,"[[0, 499, 501], [0, 1000, 0]]",True,False
-bbggbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bbggbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0]]",True,True
-bbgggr,K=1,iterations=1000,"[[0, 0, 1000], [49, 735, 216]]",True,False
-bbgggb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0]]",True,True
-bbgggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-bgrrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-bgrrrb,K=1,iterations=1000,"[[1000, 0, 0], [198, 732, 70]]",True,False
-bgrrrg,K=1,iterations=1000,"[[1000, 0, 0], [589, 204, 207]]",True,False
-bgrrbr,K=1,iterations=1000,"[[1000, 0, 0], [489, 511, 0]]",True,False
-bgrrbb,K=1,iterations=1000,"[[510, 490, 0], [0, 1000, 0]]",True,False
-bgrrbg,K=1,iterations=1000,"[[496, 0, 504], [73, 834, 93]]",True,False
-bgrrgr,K=1,iterations=1000,"[[1000, 0, 0], [749, 57, 194]]",True,False
-bgrrgb,K=1,iterations=1000,"[[521, 0, 479], [60, 714, 226]]",True,False
-bgrrgg,K=1,iterations=1000,"[[0, 0, 1000], [240, 225, 535]]",True,False
-bgrbrr,K=1,iterations=1000,"[[1000, 0, 0], [515, 485, 0]]",True,False
-bgrbrb,K=1,iterations=1000,"[[513, 487, 0], [0, 1000, 0]]",True,False
-bgrbrg,K=1,iterations=1000,"[[479, 0, 521], [215, 738, 47]]",True,False
-bgrbbr,K=1,iterations=1000,"[[525, 475, 0], [0, 1000, 0]]",True,False
-bgrbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bgrbbg,K=1,iterations=1000,"[[0, 507, 493], [0, 1000, 0]]",True,False
-bgrbgr,K=1,iterations=1000,"[[471, 0, 529], [169, 657, 174]]",True,False
-bgrbgb,K=1,iterations=1000,"[[0, 485, 515], [0, 1000, 0]]",True,False
-bgrbgg,K=1,iterations=1000,"[[0, 0, 1000], [45, 734, 221]]",True,False
-bgrgrr,K=1,iterations=1000,"[[1000, 0, 0], [718, 62, 220]]",True,False
-bgrgrb,K=1,iterations=1000,"[[488, 0, 512], [171, 656, 173]]",True,False
-bgrgrg,K=1,iterations=1000,"[[0, 0, 1000], [243, 54, 703]]",True,False
-bgrgbr,K=1,iterations=1000,"[[526, 0, 474], [163, 688, 149]]",True,False
-bgrgbb,K=1,iterations=1000,"[[0, 513, 487], [0, 1000, 0]]",True,False
-bgrgbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 518, 482]]",True,False
-bgrggr,K=1,iterations=1000,"[[0, 0, 1000], [224, 46, 730]]",True,False
-bgrggb,K=1,iterations=1000,"[[0, 0, 1000], [0, 496, 504]]",True,False
-bgrggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-bgbrrr,K=1,iterations=1000,"[[1000, 0, 0], [237, 693, 70]]",True,False
-bgbrrb,K=1,iterations=1000,"[[539, 461, 0], [0, 1000, 0]]",True,False
-bgbrrg,K=1,iterations=1000,"[[511, 0, 489], [102, 805, 93]]",True,False
-bgbrbr,K=1,iterations=1000,"[[501, 499, 0], [0, 1000, 0]]",True,False
-bgbrbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bgbrbg,K=1,iterations=1000,"[[0, 472, 528], [0, 1000, 0]]",True,False
-bgbrgr,K=1,iterations=1000,"[[516, 0, 484], [169, 679, 152]]",True,False
-bgbrgb,K=1,iterations=1000,"[[0, 512, 488], [0, 1000, 0]]",True,False
-bgbrgg,K=1,iterations=1000,"[[0, 0, 1000], [53, 705, 242]]",True,False
-bgbbrr,K=1,iterations=1000,"[[478, 522, 0], [0, 1000, 0]]",True,False
-bgbbrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bgbbrg,K=1,iterations=1000,"[[0, 510, 490], [0, 1000, 0]]",True,False
-bgbbbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bgbbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bgbbbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bgbbgr,K=1,iterations=1000,"[[0, 517, 483], [0, 1000, 0]]",True,False
-bgbbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bgbbgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0]]",True,True
-bgbgrr,K=1,iterations=1000,"[[501, 0, 499], [49, 731, 220]]",True,False
-bgbgrb,K=1,iterations=1000,"[[0, 486, 514], [0, 1000, 0]]",True,False
-bgbgrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 468, 532]]",True,False
-bgbgbr,K=1,iterations=1000,"[[0, 501, 499], [0, 1000, 0]]",True,False
-bgbgbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bgbgbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0]]",True,True
-bgbggr,K=1,iterations=1000,"[[0, 0, 1000], [0, 517, 483]]",True,False
-bgbggb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0]]",True,True
-bgbggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-bggrrr,K=1,iterations=1000,"[[1000, 0, 0], [554, 216, 230]]",True,False
-bggrrb,K=1,iterations=1000,"[[477, 0, 523], [93, 799, 108]]",True,False
-bggrrg,K=1,iterations=1000,"[[0, 0, 1000], [221, 220, 559]]",True,False
-bggrbr,K=1,iterations=1000,"[[482, 0, 518], [203, 742, 55]]",True,False
-bggrbb,K=1,iterations=1000,"[[0, 487, 513], [0, 1000, 0]]",True,False
-bggrbg,K=1,iterations=1000,"[[0, 0, 1000], [57, 708, 235]]",True,False
-bggrgr,K=1,iterations=1000,"[[0, 0, 1000], [217, 48, 735]]",True,False
-bggrgb,K=1,iterations=1000,"[[0, 0, 1000], [0, 511, 489]]",True,False
-bggrgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-bggbrr,K=1,iterations=1000,"[[489, 0, 511], [91, 799, 110]]",True,False
-bggbrb,K=1,iterations=1000,"[[0, 464, 536], [0, 1000, 0]]",True,False
-bggbrg,K=1,iterations=1000,"[[0, 0, 1000], [61, 700, 239]]",True,False
-bggbbr,K=1,iterations=1000,"[[0, 495, 505], [0, 1000, 0]]",True,False
-bggbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-bggbbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0]]",True,True
-bggbgr,K=1,iterations=1000,"[[0, 0, 1000], [0, 499, 501]]",True,False
-bggbgb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0]]",True,True
-bggbgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-bgggrr,K=1,iterations=1000,"[[0, 0, 1000], [212, 215, 573]]",True,False
-bgggrb,K=1,iterations=1000,"[[0, 0, 1000], [52, 721, 227]]",True,False
-bgggrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-bgggbr,K=1,iterations=1000,"[[0, 0, 1000], [56, 713, 231]]",True,False
-bgggbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0]]",True,True
-bgggbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-bggggr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-bggggb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-bggggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-grrrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-grrrrb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-grrrrg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-grrrbr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-grrrbb,K=1,iterations=1000,"[[1000, 0, 0], [580, 190, 230]]",True,False
-grrrbg,K=1,iterations=1000,"[[1000, 0, 0], [235, 58, 707]]",True,False
-grrrgr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-grrrgb,K=1,iterations=1000,"[[1000, 0, 0], [254, 37, 709]]",True,False
-grrrgg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000]]",True,True
-grrbrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-grrbrb,K=1,iterations=1000,"[[1000, 0, 0], [721, 221, 58]]",True,False
-grrbrg,K=1,iterations=1000,"[[1000, 0, 0], [521, 0, 479]]",True,False
-grrbbr,K=1,iterations=1000,"[[1000, 0, 0], [538, 226, 236]]",True,False
-grrbbb,K=1,iterations=1000,"[[0, 1000, 0], [199, 577, 224]]",True,False
-grrbbg,K=1,iterations=1000,"[[457, 543, 0], [89, 93, 818]]",True,False
-grrbgr,K=1,iterations=1000,"[[1000, 0, 0], [223, 56, 721]]",True,False
-grrbgb,K=1,iterations=1000,"[[497, 503, 0], [58, 237, 705]]",True,False
-grrbgg,K=1,iterations=1000,"[[469, 0, 531], [0, 0, 1000]]",True,False
-grrgrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-grrgrb,K=1,iterations=1000,"[[1000, 0, 0], [490, 0, 510]]",True,False
-grrgrg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000]]",True,True
-grrgbr,K=1,iterations=1000,"[[1000, 0, 0], [208, 56, 736]]",True,False
-grrgbb,K=1,iterations=1000,"[[521, 479, 0], [106, 90, 804]]",True,False
-grrgbg,K=1,iterations=1000,"[[496, 0, 504], [0, 0, 1000]]",True,False
-grrggr,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000]]",True,True
-grrggb,K=1,iterations=1000,"[[524, 0, 476], [0, 0, 1000]]",True,False
-grrggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-grbrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-grbrrb,K=1,iterations=1000,"[[1000, 0, 0], [741, 207, 52]]",True,False
-grbrrg,K=1,iterations=1000,"[[1000, 0, 0], [529, 0, 471]]",True,False
-grbrbr,K=1,iterations=1000,"[[1000, 0, 0], [717, 217, 66]]",True,False
-grbrbb,K=1,iterations=1000,"[[0, 1000, 0], [222, 716, 62]]",True,False
-grbrbg,K=1,iterations=1000,"[[457, 543, 0], [161, 158, 681]]",True,False
-grbrgr,K=1,iterations=1000,"[[1000, 0, 0], [506, 0, 494]]",True,False
-grbrgb,K=1,iterations=1000,"[[515, 485, 0], [162, 161, 677]]",True,False
-grbrgg,K=1,iterations=1000,"[[510, 0, 490], [0, 0, 1000]]",True,False
-grbbrr,K=1,iterations=1000,"[[1000, 0, 0], [558, 226, 216]]",True,False
-grbbrb,K=1,iterations=1000,"[[0, 1000, 0], [252, 685, 63]]",True,False
-grbbrg,K=1,iterations=1000,"[[510, 490, 0], [229, 50, 721]]",True,False
-grbbbr,K=1,iterations=1000,"[[0, 1000, 0], [237, 518, 245]]",True,False
-grbbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-grbbbg,K=1,iterations=1000,"[[0, 1000, 0], [41, 226, 733]]",True,False
-grbbgr,K=1,iterations=1000,"[[507, 493, 0], [82, 92, 826]]",True,False
-grbbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 488, 512]]",True,False
-grbbgg,K=1,iterations=1000,"[[0, 486, 514], [0, 0, 1000]]",True,False
-grbgrr,K=1,iterations=1000,"[[1000, 0, 0], [226, 62, 712]]",True,False
-grbgrb,K=1,iterations=1000,"[[494, 506, 0], [165, 163, 672]]",True,False
-grbgrg,K=1,iterations=1000,"[[498, 0, 502], [0, 0, 1000]]",True,False
-grbgbr,K=1,iterations=1000,"[[510, 490, 0], [50, 227, 723]]",True,False
-grbgbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 501, 499]]",True,False
-grbgbg,K=1,iterations=1000,"[[0, 491, 509], [0, 0, 1000]]",True,False
-grbggr,K=1,iterations=1000,"[[518, 0, 482], [0, 0, 1000]]",True,False
-grbggb,K=1,iterations=1000,"[[0, 492, 508], [0, 0, 1000]]",True,False
-grbggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-grgrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-grgrrb,K=1,iterations=1000,"[[1000, 0, 0], [507, 0, 493]]",True,False
-grgrrg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000]]",True,True
-grgrbr,K=1,iterations=1000,"[[1000, 0, 0], [509, 0, 491]]",True,False
-grgrbb,K=1,iterations=1000,"[[479, 521, 0], [192, 52, 756]]",True,False
-grgrbg,K=1,iterations=1000,"[[503, 0, 497], [0, 0, 1000]]",True,False
-grgrgr,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000]]",True,True
-grgrgb,K=1,iterations=1000,"[[469, 0, 531], [0, 0, 1000]]",True,False
-grgrgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-grgbrr,K=1,iterations=1000,"[[1000, 0, 0], [202, 54, 744]]",True,False
-grgbrb,K=1,iterations=1000,"[[492, 508, 0], [150, 170, 680]]",True,False
-grgbrg,K=1,iterations=1000,"[[490, 0, 510], [0, 0, 1000]]",True,False
-grgbbr,K=1,iterations=1000,"[[504, 496, 0], [76, 97, 827]]",True,False
-grgbbb,K=1,iterations=1000,"[[0, 1000, 0], [65, 219, 716]]",True,False
-grgbbg,K=1,iterations=1000,"[[0, 521, 479], [0, 0, 1000]]",True,False
-grgbgr,K=1,iterations=1000,"[[488, 0, 512], [0, 0, 1000]]",True,False
-grgbgb,K=1,iterations=1000,"[[0, 503, 497], [0, 0, 1000]]",True,False
-grgbgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-grggrr,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000]]",True,True
-grggrb,K=1,iterations=1000,"[[521, 0, 479], [0, 0, 1000]]",True,False
-grggrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-grggbr,K=1,iterations=1000,"[[491, 0, 509], [0, 0, 1000]]",True,False
-grggbb,K=1,iterations=1000,"[[0, 515, 485], [0, 0, 1000]]",True,False
-grggbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-grgggr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-grgggb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-grgggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gbrrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-gbrrrb,K=1,iterations=1000,"[[1000, 0, 0], [567, 211, 222]]",True,False
-gbrrrg,K=1,iterations=1000,"[[1000, 0, 0], [217, 56, 727]]",True,False
-gbrrbr,K=1,iterations=1000,"[[1000, 0, 0], [745, 208, 47]]",True,False
-gbrrbb,K=1,iterations=1000,"[[0, 1000, 0], [210, 587, 203]]",True,False
-gbrrbg,K=1,iterations=1000,"[[518, 482, 0], [59, 201, 740]]",True,False
-gbrrgr,K=1,iterations=1000,"[[1000, 0, 0], [498, 0, 502]]",True,False
-gbrrgb,K=1,iterations=1000,"[[503, 497, 0], [95, 95, 810]]",True,False
-gbrrgg,K=1,iterations=1000,"[[484, 0, 516], [0, 0, 1000]]",True,False
-gbrbrr,K=1,iterations=1000,"[[1000, 0, 0], [720, 223, 57]]",True,False
-gbrbrb,K=1,iterations=1000,"[[0, 1000, 0], [224, 730, 46]]",True,False
-gbrbrg,K=1,iterations=1000,"[[505, 495, 0], [188, 169, 643]]",True,False
-gbrbbr,K=1,iterations=1000,"[[0, 1000, 0], [242, 706, 52]]",True,False
-gbrbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-gbrbbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 488, 512]]",True,False
-gbrbgr,K=1,iterations=1000,"[[507, 493, 0], [169, 166, 665]]",True,False
-gbrbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 482, 518]]",True,False
-gbrbgg,K=1,iterations=1000,"[[0, 516, 484], [0, 0, 1000]]",True,False
-gbrgrr,K=1,iterations=1000,"[[1000, 0, 0], [503, 0, 497]]",True,False
-gbrgrb,K=1,iterations=1000,"[[491, 509, 0], [186, 53, 761]]",True,False
-gbrgrg,K=1,iterations=1000,"[[511, 0, 489], [0, 0, 1000]]",True,False
-gbrgbr,K=1,iterations=1000,"[[509, 491, 0], [166, 171, 663]]",True,False
-gbrgbb,K=1,iterations=1000,"[[0, 1000, 0], [50, 230, 720]]",True,False
-gbrgbg,K=1,iterations=1000,"[[0, 502, 498], [0, 0, 1000]]",True,False
-gbrggr,K=1,iterations=1000,"[[491, 0, 509], [0, 0, 1000]]",True,False
-gbrggb,K=1,iterations=1000,"[[0, 499, 501], [0, 0, 1000]]",True,False
-gbrggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gbbrrr,K=1,iterations=1000,"[[1000, 0, 0], [547, 255, 198]]",True,False
-gbbrrb,K=1,iterations=1000,"[[0, 1000, 0], [213, 559, 228]]",True,False
-gbbrrg,K=1,iterations=1000,"[[494, 506, 0], [88, 93, 819]]",True,False
-gbbrbr,K=1,iterations=1000,"[[0, 1000, 0], [223, 710, 67]]",True,False
-gbbrbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-gbbrbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 476, 524]]",True,False
-gbbrgr,K=1,iterations=1000,"[[497, 503, 0], [240, 57, 703]]",True,False
-gbbrgb,K=1,iterations=1000,"[[0, 1000, 0], [54, 225, 721]]",True,False
-gbbrgg,K=1,iterations=1000,"[[0, 515, 485], [0, 0, 1000]]",True,False
-gbbbrr,K=1,iterations=1000,"[[0, 1000, 0], [225, 543, 232]]",True,False
-gbbbrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-gbbbrg,K=1,iterations=1000,"[[0, 1000, 0], [55, 244, 701]]",True,False
-gbbbbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-gbbbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-gbbbbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-gbbbgr,K=1,iterations=1000,"[[0, 1000, 0], [58, 224, 718]]",True,False
-gbbbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-gbbbgg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000]]",True,True
-gbbgrr,K=1,iterations=1000,"[[489, 511, 0], [110, 97, 793]]",True,False
-gbbgrb,K=1,iterations=1000,"[[0, 1000, 0], [67, 212, 721]]",True,False
-gbbgrg,K=1,iterations=1000,"[[0, 507, 493], [0, 0, 1000]]",True,False
-gbbgbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 525, 475]]",True,False
-gbbgbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-gbbgbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000]]",True,True
-gbbggr,K=1,iterations=1000,"[[0, 483, 517], [0, 0, 1000]]",True,False
-gbbggb,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000]]",True,True
-gbbggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gbgrrr,K=1,iterations=1000,"[[1000, 0, 0], [200, 58, 742]]",True,False
-gbgrrb,K=1,iterations=1000,"[[523, 477, 0], [81, 100, 819]]",True,False
-gbgrrg,K=1,iterations=1000,"[[476, 0, 524], [0, 0, 1000]]",True,False
-gbgrbr,K=1,iterations=1000,"[[504, 496, 0], [167, 169, 664]]",True,False
-gbgrbb,K=1,iterations=1000,"[[0, 1000, 0], [55, 206, 739]]",True,False
-gbgrbg,K=1,iterations=1000,"[[0, 474, 526], [0, 0, 1000]]",True,False
-gbgrgr,K=1,iterations=1000,"[[506, 0, 494], [0, 0, 1000]]",True,False
-gbgrgb,K=1,iterations=1000,"[[0, 478, 522], [0, 0, 1000]]",True,False
-gbgrgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gbgbrr,K=1,iterations=1000,"[[477, 523, 0], [62, 211, 727]]",True,False
-gbgbrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 490, 510]]",True,False
-gbgbrg,K=1,iterations=1000,"[[0, 502, 498], [0, 0, 1000]]",True,False
-gbgbbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 471, 529]]",True,False
-gbgbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-gbgbbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000]]",True,True
-gbgbgr,K=1,iterations=1000,"[[0, 514, 486], [0, 0, 1000]]",True,False
-gbgbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000]]",True,True
-gbgbgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gbggrr,K=1,iterations=1000,"[[506, 0, 494], [0, 0, 1000]]",True,False
-gbggrb,K=1,iterations=1000,"[[0, 492, 508], [0, 0, 1000]]",True,False
-gbggrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gbggbr,K=1,iterations=1000,"[[0, 499, 501], [0, 0, 1000]]",True,False
-gbggbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000]]",True,True
-gbggbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gbgggr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gbgggb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gbgggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggrrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0]]",False,False
-ggrrrb,K=1,iterations=1000,"[[1000, 0, 0], [228, 55, 717]]",True,False
-ggrrrg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000]]",True,True
-ggrrbr,K=1,iterations=1000,"[[1000, 0, 0], [486, 0, 514]]",True,False
-ggrrbb,K=1,iterations=1000,"[[506, 494, 0], [113, 100, 787]]",True,False
-ggrrbg,K=1,iterations=1000,"[[483, 0, 517], [0, 0, 1000]]",True,False
-ggrrgr,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000]]",True,True
-ggrrgb,K=1,iterations=1000,"[[534, 0, 466], [0, 0, 1000]]",True,False
-ggrrgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggrbrr,K=1,iterations=1000,"[[1000, 0, 0], [496, 0, 504]]",True,False
-ggrbrb,K=1,iterations=1000,"[[510, 490, 0], [162, 179, 659]]",True,False
-ggrbrg,K=1,iterations=1000,"[[505, 0, 495], [0, 0, 1000]]",True,False
-ggrbbr,K=1,iterations=1000,"[[499, 501, 0], [215, 59, 726]]",True,False
-ggrbbb,K=1,iterations=1000,"[[0, 1000, 0], [51, 223, 726]]",True,False
-ggrbbg,K=1,iterations=1000,"[[0, 513, 487], [0, 0, 1000]]",True,False
-ggrbgr,K=1,iterations=1000,"[[488, 0, 512], [0, 0, 1000]]",True,False
-ggrbgb,K=1,iterations=1000,"[[0, 500, 500], [0, 0, 1000]]",True,False
-ggrbgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggrgrr,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000]]",True,True
-ggrgrb,K=1,iterations=1000,"[[484, 0, 516], [0, 0, 1000]]",True,False
-ggrgrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggrgbr,K=1,iterations=1000,"[[517, 0, 483], [0, 0, 1000]]",True,False
-ggrgbb,K=1,iterations=1000,"[[0, 493, 507], [0, 0, 1000]]",True,False
-ggrgbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggrggr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggrggb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggrggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggbrrr,K=1,iterations=1000,"[[1000, 0, 0], [208, 53, 739]]",True,False
-ggbrrb,K=1,iterations=1000,"[[525, 475, 0], [47, 221, 732]]",True,False
-ggbrrg,K=1,iterations=1000,"[[505, 0, 495], [0, 0, 1000]]",True,False
-ggbrbr,K=1,iterations=1000,"[[478, 522, 0], [175, 143, 682]]",True,False
-ggbrbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 511, 489]]",True,False
-ggbrbg,K=1,iterations=1000,"[[0, 517, 483], [0, 0, 1000]]",True,False
-ggbrgr,K=1,iterations=1000,"[[479, 0, 521], [0, 0, 1000]]",True,False
-ggbrgb,K=1,iterations=1000,"[[0, 506, 494], [0, 0, 1000]]",True,False
-ggbrgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggbbrr,K=1,iterations=1000,"[[508, 492, 0], [94, 102, 804]]",True,False
-ggbbrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 532, 468]]",True,False
-ggbbrg,K=1,iterations=1000,"[[0, 516, 484], [0, 0, 1000]]",True,False
-ggbbbr,K=1,iterations=1000,"[[0, 1000, 0], [59, 235, 706]]",True,False
-ggbbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0]]",False,False
-ggbbbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000]]",True,True
-ggbbgr,K=1,iterations=1000,"[[0, 481, 519], [0, 0, 1000]]",True,False
-ggbbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000]]",True,True
-ggbbgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggbgrr,K=1,iterations=1000,"[[511, 0, 489], [0, 0, 1000]]",True,False
-ggbgrb,K=1,iterations=1000,"[[0, 505, 495], [0, 0, 1000]]",True,False
-ggbgrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggbgbr,K=1,iterations=1000,"[[0, 489, 511], [0, 0, 1000]]",True,False
-ggbgbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000]]",True,True
-ggbgbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggbggr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggbggb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggbggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gggrrr,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000]]",True,True
-gggrrb,K=1,iterations=1000,"[[471, 0, 529], [0, 0, 1000]]",True,False
-gggrrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gggrbr,K=1,iterations=1000,"[[492, 0, 508], [0, 0, 1000]]",True,False
-gggrbb,K=1,iterations=1000,"[[0, 512, 488], [0, 0, 1000]]",True,False
-gggrbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gggrgr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gggrgb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gggrgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gggbrr,K=1,iterations=1000,"[[493, 0, 507], [0, 0, 1000]]",True,False
-gggbrb,K=1,iterations=1000,"[[0, 457, 543], [0, 0, 1000]]",True,False
-gggbrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gggbbr,K=1,iterations=1000,"[[0, 527, 473], [0, 0, 1000]]",True,False
-gggbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000]]",True,True
-gggbbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gggbgr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gggbgb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gggbgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggggrr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggggrb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggggrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggggbr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggggbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-ggggbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gggggr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gggggb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-gggggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000]]",False,False
-510,"['rrrbbb', 'rrrbbg', 'rrrbgb', 'rrrbgg', 'rrrgbb', 'rrrgbg', 'rrrggb', 'rrrggg', 'rrbrbb', 'rrbrbg', 'rrbrgb', 'rrbrgg', 'rrbbrb', 'rrbbrg', 'rrbbbr', 'rrbbbg', 'rrbbgr', 'rrbbgb', 'rrbbgg', 'rrbgrb', 'rrbgrg', 'rrbgbr', 'rrbgbb', 'rrbgbg', 'rrbggr', 'rrbggb', 'rrbggg', 'rrgrbb', 'rrgrbg', 'rrgrgb', 'rrgrgg', 'rrgbrb', 'rrgbrg', 'rrgbbr', 'rrgbbb', 'rrgbbg', 'rrgbgr', 'rrgbgb', 'rrgbgg', 'rrggrb', 'rrggrg', 'rrggbr', 'rrggbb', 'rrggbg', 'rrgggr', 'rrgggb', 'rbrrbb', 'rbrrbg', 'rbrrgb', 'rbrrgg', 'rbrbrb', 'rbrbrg', 'rbrbbr', 'rbrbbg', 'rbrbgr', 'rbrbgb', 'rbrbgg', 'rbrgrb', 'rbrgrg', 'rbrgbr', 'rbrgbb', 'rbrgbg', 'rbrggr', 'rbrggb', 'rbrggg', 'rbbrrb', 'rbbrrg', 'rbbrbr', 'rbbrbg', 'rbbrgr', 'rbbrgb', 'rbbrgg', 'rbbbrr', 'rbbbrg', 'rbbbgr', 'rbbbgg', 'rbbgrr', 'rbbgrb', 'rbbgrg', 'rbbgbr', 'rbbgbg', 'rbbggr', 'rbbggb', 'rbbggg', 'rbgrrb', 'rbgrrg', 'rbgrbr', 'rbgrbb', 'rbgrbg', 'rbgrgr', 'rbgrgb', 'rbgrgg', 'rbgbrr', 'rbgbrb', 'rbgbrg', 'rbgbbr', 'rbgbbg', 'rbgbgr', 'rbgbgb', 'rbgbgg', 'rbggrr', 'rbggrb', 'rbggrg', 'rbggbr', 'rbggbb', 'rbggbg', 'rbgggr', 'rbgggb', 'rgrrbb', 'rgrrbg', 'rgrrgb', 'rgrrgg', 'rgrbrb', 'rgrbrg', 'rgrbbr', 'rgrbbb', 'rgrbbg', 'rgrbgr', 'rgrbgb', 'rgrbgg', 'rgrgrb', 'rgrgrg', 'rgrgbr', 'rgrgbb', 'rgrgbg', 'rgrggr', 'rgrggb', 'rgbrrb', 'rgbrrg', 'rgbrbr', 'rgbrbb', 'rgbrbg', 'rgbrgr', 'rgbrgb', 'rgbrgg', 'rgbbrr', 'rgbbrb', 'rgbbrg', 'rgbbbr', 'rgbbbg', 'rgbbgr', 'rgbbgb', 'rgbbgg', 'rgbgrr', 'rgbgrb', 'rgbgrg', 'rgbgbr', 'rgbgbb', 'rgbgbg', 'rgbggr', 'rgbggb', 'rggrrb', 'rggrrg', 'rggrbr', 'rggrbb', 'rggrbg', 'rggrgr', 'rggrgb', 'rggbrr', 'rggbrb', 'rggbrg', 'rggbbr', 'rggbbb', 'rggbbg', 'rggbgr', 'rggbgb', 'rgggrr', 'rgggrb', 'rgggbr', 'rgggbb', 'brrrbb', 'brrrbg', 'brrrgb', 'brrrgg', 'brrbrb', 'brrbrg', 'brrbbr', 'brrbbg', 'brrbgr', 'brrbgb', 'brrbgg', 'brrgrb', 'brrgrg', 'brrgbr', 'brrgbb', 'brrgbg', 'brrggr', 'brrggb', 'brrggg', 'brbrrb', 'brbrrg', 'brbrbr', 'brbrbg', 'brbrgr', 'brbrgb', 'brbrgg', 'brbbrr', 'brbbrg', 'brbbgr', 'brbbgg', 'brbgrr', 'brbgrb', 'brbgrg', 'brbgbr', 'brbgbg', 'brbggr', 'brbggb', 'brbggg', 'brgrrb', 'brgrrg', 'brgrbr', 'brgrbb', 'brgrbg', 'brgrgr', 'brgrgb', 'brgrgg', 'brgbrr', 'brgbrb', 'brgbrg', 'brgbbr', 'brgbbg', 'brgbgr', 'brgbgb', 'brgbgg', 'brggrr', 'brggrb', 'brggrg', 'brggbr', 'brggbb', 'brggbg', 'brgggr', 'brgggb', 'bbrrrb', 'bbrrrg', 'bbrrbr', 'bbrrbg', 'bbrrgr', 'bbrrgb', 'bbrrgg', 'bbrbrr', 'bbrbrg', 'bbrbgr', 'bbrbgg', 'bbrgrr', 'bbrgrb', 'bbrgrg', 'bbrgbr', 'bbrgbg', 'bbrggr', 'bbrggb', 'bbrggg', 'bbbrrr', 'bbbrrg', 'bbbrgr', 'bbbrgg', 'bbbgrr', 'bbbgrg', 'bbbggr', 'bbbggg', 'bbgrrr', 'bbgrrb', 'bbgrrg', 'bbgrbr', 'bbgrbg', 'bbgrgr', 'bbgrgb', 'bbgrgg', 'bbgbrr', 'bbgbrg', 'bbgbgr', 'bbgbgg', 'bbggrr', 'bbggrb', 'bbggrg', 'bbggbr', 'bbggbg', 'bbgggr', 'bbgggb', 'bgrrrb', 'bgrrrg', 'bgrrbr', 'bgrrbb', 'bgrrbg', 'bgrrgr', 'bgrrgb', 'bgrrgg', 'bgrbrr', 'bgrbrb', 'bgrbrg', 'bgrbbr', 'bgrbbg', 'bgrbgr', 'bgrbgb', 'bgrbgg', 'bgrgrr', 'bgrgrb', 'bgrgrg', 'bgrgbr', 'bgrgbb', 'bgrgbg', 'bgrggr', 'bgrggb', 'bgbrrr', 'bgbrrb', 'bgbrrg', 'bgbrbr', 'bgbrbg', 'bgbrgr', 'bgbrgb', 'bgbrgg', 'bgbbrr', 'bgbbrg', 'bgbbgr', 'bgbbgg', 'bgbgrr', 'bgbgrb', 'bgbgrg', 'bgbgbr', 'bgbgbg', 'bgbggr', 'bgbggb', 'bggrrr', 'bggrrb', 'bggrrg', 'bggrbr', 'bggrbb', 'bggrbg', 'bggrgr', 'bggrgb', 'bggbrr', 'bggbrb', 'bggbrg', 'bggbbr', 'bggbbg', 'bggbgr', 'bggbgb', 'bgggrr', 'bgggrb', 'bgggbr', 'bgggbb', 'grrrbb', 'grrrbg', 'grrrgb', 'grrrgg', 'grrbrb', 'grrbrg', 'grrbbr', 'grrbbb', 'grrbbg', 'grrbgr', 'grrbgb', 'grrbgg', 'grrgrb', 'grrgrg', 'grrgbr', 'grrgbb', 'grrgbg', 'grrggr', 'grrggb', 'grbrrb', 'grbrrg', 'grbrbr', 'grbrbb', 'grbrbg', 'grbrgr', 'grbrgb', 'grbrgg', 'grbbrr', 'grbbrb', 'grbbrg', 'grbbbr', 'grbbbg', 'grbbgr', 'grbbgb', 'grbbgg', 'grbgrr', 'grbgrb', 'grbgrg', 'grbgbr', 'grbgbb', 'grbgbg', 'grbggr', 'grbggb', 'grgrrb', 'grgrrg', 'grgrbr', 'grgrbb', 'grgrbg', 'grgrgr', 'grgrgb', 'grgbrr', 'grgbrb', 'grgbrg', 'grgbbr', 'grgbbb', 'grgbbg', 'grgbgr', 'grgbgb', 'grggrr', 'grggrb', 'grggbr', 'grggbb', 'gbrrrb', 'gbrrrg', 'gbrrbr', 'gbrrbb', 'gbrrbg', 'gbrrgr', 'gbrrgb', 'gbrrgg', 'gbrbrr', 'gbrbrb', 'gbrbrg', 'gbrbbr', 'gbrbbg', 'gbrbgr', 'gbrbgb', 'gbrbgg', 'gbrgrr', 'gbrgrb', 'gbrgrg', 'gbrgbr', 'gbrgbb', 'gbrgbg', 'gbrggr', 'gbrggb', 'gbbrrr', 'gbbrrb', 'gbbrrg', 'gbbrbr', 'gbbrbg', 'gbbrgr', 'gbbrgb', 'gbbrgg', 'gbbbrr', 'gbbbrg', 'gbbbgr', 'gbbbgg', 'gbbgrr', 'gbbgrb', 'gbbgrg', 'gbbgbr', 'gbbgbg', 'gbbggr', 'gbbggb', 'gbgrrr', 'gbgrrb', 'gbgrrg', 'gbgrbr', 'gbgrbb', 'gbgrbg', 'gbgrgr', 'gbgrgb', 'gbgbrr', 'gbgbrb', 'gbgbrg', 'gbgbbr', 'gbgbbg', 'gbgbgr', 'gbgbgb', 'gbggrr', 'gbggrb', 'gbggbr', 'gbggbb', 'ggrrrb', 'ggrrrg', 'ggrrbr', 'ggrrbb', 'ggrrbg', 'ggrrgr', 'ggrrgb', 'ggrbrr', 'ggrbrb', 'ggrbrg', 'ggrbbr', 'ggrbbb', 'ggrbbg', 'ggrbgr', 'ggrbgb', 'ggrgrr', 'ggrgrb', 'ggrgbr', 'ggrgbb', 'ggbrrr', 'ggbrrb', 'ggbrrg', 'ggbrbr', 'ggbrbb', 'ggbrbg', 'ggbrgr', 'ggbrgb', 'ggbbrr', 'ggbbrb', 'ggbbrg', 'ggbbbr', 'ggbbbg', 'ggbbgr', 'ggbbgb', 'ggbgrr', 'ggbgrb', 'ggbgbr', 'ggbgbb', 'gggrrr', 'gggrrb', 'gggrbr', 'gggrbb', 'gggbrr', 'gggbrb', 'gggbbr', 'gggbbb']"
-20,"['rrrbbb', 'rrbrbb', 'rrbbrb', 'rrbbbr', 'rbrrbb', 'rbrbrb', 'rbrbbr', 'rbbrrb', 'rbbrbr', 'rbbbrr', 'brrrbb', 'brrbrb', 'brrbbr', 'brbrrb', 'brbrbr', 'brbbrr', 'bbrrrb', 'bbrrbr', 'bbrbrr', 'bbbrrr']"
-60,"['rrrbbb', 'rrrggg', 'rrbrbb', 'rrbbrb', 'rrbbbr', 'rrgrgg', 'rrggrg', 'rrgggr', 'rbrrbb', 'rbrbrb', 'rbrbbr', 'rbbrrb', 'rbbrbr', 'rbbbrr', 'rgrrgg', 'rgrgrg', 'rgrggr', 'rggrrg', 'rggrgr', 'rgggrr', 'brrrbb', 'brrbrb', 'brrbbr', 'brbrrb', 'brbrbr', 'brbbrr', 'bbrrrb', 'bbrrbr', 'bbrbrr', 'bbbrrr', 'bbbggg', 'bbgbgg', 'bbggbg', 'bbgggb', 'bgbbgg', 'bgbgbg', 'bgbggb', 'bggbbg', 'bggbgb', 'bgggbb', 'grrrgg', 'grrgrg', 'grrggr', 'grgrrg', 'grgrgr', 'grggrr', 'gbbbgg', 'gbbgbg', 'gbbggb', 'gbgbbg', 'gbgbgb', 'gbggbb', 'ggrrrg', 'ggrrgr', 'ggrgrr', 'ggbbbg', 'ggbbgb', 'ggbgbb', 'gggrrr', 'gggbbb']"
-20,"['rrrbbb', 'rrbrbb', 'rrbbrb', 'rrbbbr', 'rbrrbb', 'rbrbrb', 'rbrbbr', 'rbbrrb', 'rbbrbr', 'rbbbrr', 'brrrbb', 'brrbrb', 'brrbbr', 'brbrrb', 'brbrbr', 'brbbrr', 'bbrrrb', 'bbrrbr', 'bbrbrr', 'bbbrrr']"
+rrrrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrrrb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrrrg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrrbr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrrbb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrrbg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrrgr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrrgb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrrgg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrbrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrbrb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrbrg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrbbr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrbbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [1000, 0, 0]]",False,True,False,True
+rrrbbg,K=1,iterations=1000,"[[1000, 0, 0], [531, 469, 0], [1000, 0, 0]]",False,True,False,True
+rrrbgr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrbgb,K=1,iterations=1000,"[[1000, 0, 0], [514, 486, 0], [1000, 0, 0]]",False,True,False,True
+rrrbgg,K=1,iterations=1000,"[[1000, 0, 0], [486, 0, 514], [1000, 0, 0]]",False,True,False,True
+rrrgrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrgrb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrgrg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrgbr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrgbb,K=1,iterations=1000,"[[1000, 0, 0], [518, 482, 0], [1000, 0, 0]]",False,True,False,True
+rrrgbg,K=1,iterations=1000,"[[1000, 0, 0], [486, 0, 514], [1000, 0, 0]]",False,True,False,True
+rrrggr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrrggb,K=1,iterations=1000,"[[1000, 0, 0], [498, 0, 502], [1000, 0, 0]]",False,True,False,True
+rrrggg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [1000, 0, 0]]",False,True,False,True
+rrbrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrbrrb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrbrrg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrbrbr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrbrbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [1000, 0, 0]]",False,True,False,True
+rrbrbg,K=1,iterations=1000,"[[1000, 0, 0], [494, 506, 0], [1000, 0, 0]]",False,True,False,True
+rrbrgr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrbrgb,K=1,iterations=1000,"[[1000, 0, 0], [541, 459, 0], [1000, 0, 0]]",False,True,False,True
+rrbrgg,K=1,iterations=1000,"[[1000, 0, 0], [523, 0, 477], [1000, 0, 0]]",False,True,False,True
+rrbbrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrbbrb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [1000, 0, 0]]",False,True,False,True
+rrbbrg,K=1,iterations=1000,"[[1000, 0, 0], [497, 503, 0], [1000, 0, 0]]",False,True,False,True
+rrbbbr,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [1000, 0, 0]]",False,True,False,True
+rrbbbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+rrbbbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [734, 210, 56]]",False,False,False,True
+rrbbgr,K=1,iterations=1000,"[[1000, 0, 0], [511, 489, 0], [1000, 0, 0]]",False,True,False,True
+rrbbgb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [527, 473, 0]]",False,False,False,True
+rrbbgg,K=1,iterations=1000,"[[1000, 0, 0], [0, 501, 499], [821, 91, 88]]",False,False,False,True
+rrbgrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrbgrb,K=1,iterations=1000,"[[1000, 0, 0], [493, 507, 0], [1000, 0, 0]]",False,True,False,True
+rrbgrg,K=1,iterations=1000,"[[1000, 0, 0], [498, 0, 502], [1000, 0, 0]]",False,True,False,True
+rrbgbr,K=1,iterations=1000,"[[1000, 0, 0], [498, 502, 0], [1000, 0, 0]]",False,True,False,True
+rrbgbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [477, 523, 0]]",False,False,False,True
+rrbgbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 501, 499], [665, 168, 167]]",False,False,False,True
+rrbggr,K=1,iterations=1000,"[[1000, 0, 0], [517, 0, 483], [1000, 0, 0]]",False,True,False,True
+rrbggb,K=1,iterations=1000,"[[1000, 0, 0], [0, 508, 492], [726, 211, 63]]",False,False,False,True
+rrbggg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [721, 61, 218]]",False,False,False,True
+rrgrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrgrrb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrgrrg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrgrbr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrgrbb,K=1,iterations=1000,"[[1000, 0, 0], [496, 504, 0], [1000, 0, 0]]",False,True,False,True
+rrgrbg,K=1,iterations=1000,"[[1000, 0, 0], [504, 0, 496], [1000, 0, 0]]",False,True,False,True
+rrgrgr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrgrgb,K=1,iterations=1000,"[[1000, 0, 0], [492, 0, 508], [1000, 0, 0]]",False,True,False,True
+rrgrgg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [1000, 0, 0]]",False,True,False,True
+rrgbrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrgbrb,K=1,iterations=1000,"[[1000, 0, 0], [488, 512, 0], [1000, 0, 0]]",False,True,False,True
+rrgbrg,K=1,iterations=1000,"[[1000, 0, 0], [484, 0, 516], [1000, 0, 0]]",False,True,False,True
+rrgbbr,K=1,iterations=1000,"[[1000, 0, 0], [514, 486, 0], [1000, 0, 0]]",False,True,False,True
+rrgbbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [701, 243, 56]]",False,False,False,True
+rrgbbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 498, 502], [718, 64, 218]]",False,False,False,True
+rrgbgr,K=1,iterations=1000,"[[1000, 0, 0], [521, 0, 479], [1000, 0, 0]]",False,True,False,True
+rrgbgb,K=1,iterations=1000,"[[1000, 0, 0], [0, 513, 487], [656, 164, 180]]",False,False,False,True
+rrgbgg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [497, 0, 503]]",False,False,False,True
+rrggrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rrggrb,K=1,iterations=1000,"[[1000, 0, 0], [520, 0, 480], [1000, 0, 0]]",False,True,False,True
+rrggrg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [1000, 0, 0]]",False,True,False,True
+rrggbr,K=1,iterations=1000,"[[1000, 0, 0], [518, 0, 482], [1000, 0, 0]]",False,True,False,True
+rrggbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 486, 514], [812, 100, 88]]",False,False,False,True
+rrggbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [505, 0, 495]]",False,False,False,True
+rrgggr,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [1000, 0, 0]]",False,True,False,True
+rrgggb,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [714, 64, 222]]",False,False,False,True
+rrgggg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+rbrrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rbrrrb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rbrrrg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rbrrbr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rbrrbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [1000, 0, 0]]",False,True,False,True
+rbrrbg,K=1,iterations=1000,"[[1000, 0, 0], [493, 507, 0], [1000, 0, 0]]",False,True,False,True
+rbrrgr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rbrrgb,K=1,iterations=1000,"[[1000, 0, 0], [500, 500, 0], [1000, 0, 0]]",False,True,False,True
+rbrrgg,K=1,iterations=1000,"[[1000, 0, 0], [511, 0, 489], [1000, 0, 0]]",False,True,False,True
+rbrbrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rbrbrb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [1000, 0, 0]]",False,True,False,True
+rbrbrg,K=1,iterations=1000,"[[1000, 0, 0], [499, 501, 0], [1000, 0, 0]]",False,True,False,True
+rbrbbr,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [1000, 0, 0]]",False,True,False,True
+rbrbbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+rbrbbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [489, 511, 0]]",False,False,False,True
+rbrbgr,K=1,iterations=1000,"[[1000, 0, 0], [472, 528, 0], [1000, 0, 0]]",False,True,False,True
+rbrbgb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [489, 511, 0]]",False,False,False,True
+rbrbgg,K=1,iterations=1000,"[[1000, 0, 0], [0, 517, 483], [729, 218, 53]]",False,False,False,True
+rbrgrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rbrgrb,K=1,iterations=1000,"[[1000, 0, 0], [487, 513, 0], [1000, 0, 0]]",False,True,False,True
+rbrgrg,K=1,iterations=1000,"[[1000, 0, 0], [506, 0, 494], [1000, 0, 0]]",False,True,False,True
+rbrgbr,K=1,iterations=1000,"[[1000, 0, 0], [527, 473, 0], [1000, 0, 0]]",False,True,False,True
+rbrgbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [700, 241, 59]]",False,False,False,True
+rbrgbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 481, 519], [667, 172, 161]]",False,False,False,True
+rbrggr,K=1,iterations=1000,"[[1000, 0, 0], [470, 0, 530], [1000, 0, 0]]",False,True,False,True
+rbrggb,K=1,iterations=1000,"[[1000, 0, 0], [0, 492, 508], [813, 83, 104]]",False,False,False,True
+rbrggg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [739, 49, 212]]",False,False,False,True
+rbbrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rbbrrb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [1000, 0, 0]]",False,True,False,True
+rbbrrg,K=1,iterations=1000,"[[1000, 0, 0], [495, 505, 0], [1000, 0, 0]]",False,True,False,True
+rbbrbr,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [1000, 0, 0]]",False,True,False,True
+rbbrbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+rbbrbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [494, 506, 0]]",False,False,False,True
+rbbrgr,K=1,iterations=1000,"[[1000, 0, 0], [485, 515, 0], [1000, 0, 0]]",False,True,False,True
+rbbrgb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [759, 196, 45]]",False,False,False,True
+rbbrgg,K=1,iterations=1000,"[[1000, 0, 0], [0, 494, 506], [826, 86, 88]]",False,False,False,True
+rbbbrr,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [1000, 0, 0]]",False,True,False,True
+rbbbrb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+rbbbrg,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [720, 227, 53]]",False,False,False,True
+rbbbbr,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+rbbbbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+rbbbbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+rbbbgr,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [722, 220, 58]]",False,False,False,True
+rbbbgb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+rbbbgg,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [227, 549, 224]]",False,False,False,True
+rbbgrr,K=1,iterations=1000,"[[1000, 0, 0], [522, 478, 0], [1000, 0, 0]]",False,True,False,True
+rbbgrb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [716, 236, 48]]",False,False,False,True
+rbbgrg,K=1,iterations=1000,"[[1000, 0, 0], [0, 507, 493], [720, 55, 225]]",False,False,False,True
+rbbgbr,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [506, 494, 0]]",False,False,False,True
+rbbgbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+rbbgbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [60, 744, 196]]",False,False,False,True
+rbbggr,K=1,iterations=1000,"[[1000, 0, 0], [0, 498, 502], [774, 125, 101]]",False,False,False,True
+rbbggb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [213, 552, 235]]",False,False,False,True
+rbbggg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [223, 220, 557]]",False,False,False,True
+rbgrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rbgrrb,K=1,iterations=1000,"[[1000, 0, 0], [503, 497, 0], [1000, 0, 0]]",False,True,False,True
+rbgrrg,K=1,iterations=1000,"[[1000, 0, 0], [509, 0, 491], [1000, 0, 0]]",False,True,False,True
+rbgrbr,K=1,iterations=1000,"[[1000, 0, 0], [493, 507, 0], [1000, 0, 0]]",False,True,False,True
+rbgrbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [729, 215, 56]]",False,False,False,True
+rbgrbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 456, 544], [663, 185, 152]]",False,False,False,True
+rbgrgr,K=1,iterations=1000,"[[1000, 0, 0], [486, 0, 514], [1000, 0, 0]]",False,True,False,True
+rbgrgb,K=1,iterations=1000,"[[1000, 0, 0], [0, 473, 527], [738, 58, 204]]",False,False,False,True
+rbgrgg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [513, 0, 487]]",False,False,False,True
+rbgbrr,K=1,iterations=1000,"[[1000, 0, 0], [525, 475, 0], [1000, 0, 0]]",False,True,False,True
+rbgbrb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [497, 503, 0]]",False,False,False,True
+rbgbrg,K=1,iterations=1000,"[[1000, 0, 0], [0, 473, 527], [648, 195, 157]]",False,False,False,True
+rbgbbr,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [491, 509, 0]]",False,False,False,True
+rbgbbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+rbgbbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [64, 724, 212]]",False,False,False,True
+rbgbgr,K=1,iterations=1000,"[[1000, 0, 0], [0, 490, 510], [665, 163, 172]]",False,False,False,True
+rbgbgb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [60, 723, 217]]",False,False,False,True
+rbgbgg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [49, 214, 737]]",False,False,False,True
+rbggrr,K=1,iterations=1000,"[[1000, 0, 0], [507, 0, 493], [1000, 0, 0]]",False,True,False,True
+rbggrb,K=1,iterations=1000,"[[1000, 0, 0], [0, 515, 485], [835, 86, 79]]",False,False,False,True
+rbggrg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [521, 0, 479]]",False,False,False,True
+rbggbr,K=1,iterations=1000,"[[1000, 0, 0], [0, 506, 494], [742, 214, 44]]",False,False,False,True
+rbggbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [223, 554, 223]]",False,False,False,True
+rbggbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [58, 215, 727]]",False,False,False,True
+rbgggr,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [711, 54, 235]]",False,False,False,True
+rbgggb,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [226, 222, 552]]",False,False,False,True
+rbgggg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+rgrrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rgrrrb,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rgrrrg,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rgrrbr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rgrrbb,K=1,iterations=1000,"[[1000, 0, 0], [498, 502, 0], [1000, 0, 0]]",False,True,False,True
+rgrrbg,K=1,iterations=1000,"[[1000, 0, 0], [495, 0, 505], [1000, 0, 0]]",False,True,False,True
+rgrrgr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rgrrgb,K=1,iterations=1000,"[[1000, 0, 0], [524, 0, 476], [1000, 0, 0]]",False,True,False,True
+rgrrgg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [1000, 0, 0]]",False,True,False,True
+rgrbrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rgrbrb,K=1,iterations=1000,"[[1000, 0, 0], [509, 491, 0], [1000, 0, 0]]",False,True,False,True
+rgrbrg,K=1,iterations=1000,"[[1000, 0, 0], [509, 0, 491], [1000, 0, 0]]",False,True,False,True
+rgrbbr,K=1,iterations=1000,"[[1000, 0, 0], [501, 499, 0], [1000, 0, 0]]",False,True,False,True
+rgrbbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [723, 221, 56]]",False,False,False,True
+rgrbbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 497, 503], [803, 103, 94]]",False,False,False,True
+rgrbgr,K=1,iterations=1000,"[[1000, 0, 0], [499, 0, 501], [1000, 0, 0]]",False,True,False,True
+rgrbgb,K=1,iterations=1000,"[[1000, 0, 0], [0, 524, 476], [682, 164, 154]]",False,False,False,True
+rgrbgg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [720, 56, 224]]",False,False,False,True
+rgrgrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rgrgrb,K=1,iterations=1000,"[[1000, 0, 0], [499, 0, 501], [1000, 0, 0]]",False,True,False,True
+rgrgrg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [1000, 0, 0]]",False,True,False,True
+rgrgbr,K=1,iterations=1000,"[[1000, 0, 0], [511, 0, 489], [1000, 0, 0]]",False,True,False,True
+rgrgbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 490, 510], [715, 56, 229]]",False,False,False,True
+rgrgbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [506, 0, 494]]",False,False,False,True
+rgrggr,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [1000, 0, 0]]",False,True,False,True
+rgrggb,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [496, 0, 504]]",False,False,False,True
+rgrggg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+rgbrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rgbrrb,K=1,iterations=1000,"[[1000, 0, 0], [494, 506, 0], [1000, 0, 0]]",False,True,False,True
+rgbrrg,K=1,iterations=1000,"[[1000, 0, 0], [505, 0, 495], [1000, 0, 0]]",False,True,False,True
+rgbrbr,K=1,iterations=1000,"[[1000, 0, 0], [480, 520, 0], [1000, 0, 0]]",False,True,False,True
+rgbrbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [496, 504, 0]]",False,False,False,True
+rgbrbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 469, 531], [705, 236, 59]]",False,False,False,True
+rgbrgr,K=1,iterations=1000,"[[1000, 0, 0], [482, 0, 518], [1000, 0, 0]]",False,True,False,True
+rgbrgb,K=1,iterations=1000,"[[1000, 0, 0], [0, 519, 481], [659, 164, 177]]",False,False,False,True
+rgbrgg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [721, 61, 218]]",False,False,False,True
+rgbbrr,K=1,iterations=1000,"[[1000, 0, 0], [512, 488, 0], [1000, 0, 0]]",False,True,False,True
+rgbbrb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [506, 494, 0]]",False,False,False,True
+rgbbrg,K=1,iterations=1000,"[[1000, 0, 0], [0, 497, 503], [810, 92, 98]]",False,False,False,True
+rgbbbr,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [728, 212, 60]]",False,False,False,True
+rgbbbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+rgbbbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [204, 553, 243]]",False,False,False,True
+rgbbgr,K=1,iterations=1000,"[[1000, 0, 0], [0, 502, 498], [724, 56, 220]]",False,False,False,True
+rgbbgb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [67, 710, 223]]",False,False,False,True
+rgbbgg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [235, 211, 554]]",False,False,False,True
+rgbgrr,K=1,iterations=1000,"[[1000, 0, 0], [469, 0, 531], [1000, 0, 0]]",False,True,False,True
+rgbgrb,K=1,iterations=1000,"[[1000, 0, 0], [0, 480, 520], [688, 153, 159]]",False,False,False,True
+rgbgrg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [510, 0, 490]]",False,False,False,True
+rgbgbr,K=1,iterations=1000,"[[1000, 0, 0], [0, 497, 503], [661, 171, 168]]",False,False,False,True
+rgbgbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [54, 712, 234]]",False,False,False,True
+rgbgbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [45, 207, 748]]",False,False,False,True
+rgbggr,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [505, 0, 495]]",False,False,False,True
+rgbggb,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [47, 244, 709]]",False,False,False,True
+rgbggg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+rggrrr,K=1,iterations=1000,"[[1000, 0, 0], [1000, 0, 0], [1000, 0, 0]]",True,True,True,False
+rggrrb,K=1,iterations=1000,"[[1000, 0, 0], [511, 0, 489], [1000, 0, 0]]",False,True,False,True
+rggrrg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [1000, 0, 0]]",False,True,False,True
+rggrbr,K=1,iterations=1000,"[[1000, 0, 0], [510, 0, 490], [1000, 0, 0]]",False,True,False,True
+rggrbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 492, 508], [826, 82, 92]]",False,False,False,True
+rggrbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [727, 62, 211]]",False,False,False,True
+rggrgr,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [1000, 0, 0]]",False,True,False,True
+rggrgb,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [491, 0, 509]]",False,False,False,True
+rggrgg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+rggbrr,K=1,iterations=1000,"[[1000, 0, 0], [504, 0, 496], [1000, 0, 0]]",False,True,False,True
+rggbrb,K=1,iterations=1000,"[[1000, 0, 0], [0, 494, 506], [760, 190, 50]]",False,False,False,True
+rggbrg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [710, 59, 231]]",False,False,False,True
+rggbbr,K=1,iterations=1000,"[[1000, 0, 0], [0, 529, 471], [808, 90, 102]]",False,False,False,True
+rggbbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 1000, 0], [226, 553, 221]]",False,False,False,True
+rggbbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [251, 213, 536]]",False,False,False,True
+rggbgr,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [461, 0, 539]]",False,False,False,True
+rggbgb,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [42, 220, 738]]",False,False,False,True
+rggbgg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+rgggrr,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [1000, 0, 0]]",False,True,False,True
+rgggrb,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [723, 41, 236]]",False,False,False,True
+rgggrg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+rgggbr,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [725, 47, 228]]",False,False,False,True
+rgggbb,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [237, 223, 540]]",False,False,False,True
+rgggbg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+rggggr,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+rggggb,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+rggggg,K=1,iterations=1000,"[[1000, 0, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+brrrrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+brrrrb,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+brrrrg,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+brrrbr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+brrrbb,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [0, 1000, 0]]",False,True,False,True
+brrrbg,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [221, 727, 52]]",False,False,False,True
+brrrgr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+brrrgb,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [210, 726, 64]]",False,False,False,True
+brrrgg,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [531, 243, 226]]",False,False,False,True
+brrbrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+brrbrb,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [0, 1000, 0]]",False,True,False,True
+brrbrg,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [488, 512, 0]]",False,False,False,True
+brrbbr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [0, 1000, 0]]",False,True,False,True
+brrbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+brrbbg,K=1,iterations=1000,"[[0, 1000, 0], [497, 503, 0], [0, 1000, 0]]",False,True,False,True
+brrbgr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [235, 711, 54]]",False,False,False,True
+brrbgb,K=1,iterations=1000,"[[0, 1000, 0], [495, 505, 0], [0, 1000, 0]]",False,True,False,True
+brrbgg,K=1,iterations=1000,"[[0, 1000, 0], [503, 0, 497], [98, 799, 103]]",False,False,False,True
+brrgrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+brrgrb,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [513, 487, 0]]",False,False,False,True
+brrgrg,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [728, 61, 211]]",False,False,False,True
+brrgbr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [205, 745, 50]]",False,False,False,True
+brrgbb,K=1,iterations=1000,"[[0, 1000, 0], [506, 494, 0], [0, 1000, 0]]",False,True,False,True
+brrgbg,K=1,iterations=1000,"[[0, 1000, 0], [501, 0, 499], [60, 721, 219]]",False,False,False,True
+brrggr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [536, 246, 218]]",False,False,False,True
+brrggb,K=1,iterations=1000,"[[0, 1000, 0], [497, 0, 503], [79, 828, 93]]",False,False,False,True
+brrggg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [226, 233, 541]]",False,False,False,True
+brbrrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+brbrrb,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [0, 1000, 0]]",False,True,False,True
+brbrrg,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [481, 519, 0]]",False,False,False,True
+brbrbr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [0, 1000, 0]]",False,True,False,True
+brbrbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+brbrbg,K=1,iterations=1000,"[[0, 1000, 0], [473, 527, 0], [0, 1000, 0]]",False,True,False,True
+brbrgr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [492, 508, 0]]",False,False,False,True
+brbrgb,K=1,iterations=1000,"[[0, 1000, 0], [495, 505, 0], [0, 1000, 0]]",False,True,False,True
+brbrgg,K=1,iterations=1000,"[[0, 1000, 0], [505, 0, 495], [210, 735, 55]]",False,False,False,True
+brbbrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [0, 1000, 0]]",False,True,False,True
+brbbrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+brbbrg,K=1,iterations=1000,"[[0, 1000, 0], [510, 490, 0], [0, 1000, 0]]",False,True,False,True
+brbbbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+brbbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+brbbbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+brbbgr,K=1,iterations=1000,"[[0, 1000, 0], [477, 523, 0], [0, 1000, 0]]",False,True,False,True
+brbbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+brbbgg,K=1,iterations=1000,"[[0, 1000, 0], [0, 498, 502], [0, 1000, 0]]",False,True,False,True
+brbgrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [227, 708, 65]]",False,False,False,True
+brbgrb,K=1,iterations=1000,"[[0, 1000, 0], [479, 521, 0], [0, 1000, 0]]",False,True,False,True
+brbgrg,K=1,iterations=1000,"[[0, 1000, 0], [489, 0, 511], [181, 657, 162]]",False,False,False,True
+brbgbr,K=1,iterations=1000,"[[0, 1000, 0], [494, 506, 0], [0, 1000, 0]]",False,True,False,True
+brbgbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+brbgbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 505, 495], [0, 1000, 0]]",False,True,False,True
+brbggr,K=1,iterations=1000,"[[0, 1000, 0], [515, 0, 485], [99, 816, 85]]",False,False,False,True
+brbggb,K=1,iterations=1000,"[[0, 1000, 0], [0, 468, 532], [0, 1000, 0]]",False,True,False,True
+brbggg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [61, 726, 213]]",False,False,False,True
+brgrrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+brgrrb,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [503, 497, 0]]",False,False,False,True
+brgrrg,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [713, 62, 225]]",False,False,False,True
+brgrbr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [514, 486, 0]]",False,False,False,True
+brgrbb,K=1,iterations=1000,"[[0, 1000, 0], [519, 481, 0], [0, 1000, 0]]",False,True,False,True
+brgrbg,K=1,iterations=1000,"[[0, 1000, 0], [479, 0, 521], [147, 691, 162]]",False,False,False,True
+brgrgr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [732, 55, 213]]",False,False,False,True
+brgrgb,K=1,iterations=1000,"[[0, 1000, 0], [494, 0, 506], [160, 687, 153]]",False,False,False,True
+brgrgg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [204, 56, 740]]",False,False,False,True
+brgbrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [236, 718, 46]]",False,False,False,True
+brgbrb,K=1,iterations=1000,"[[0, 1000, 0], [511, 489, 0], [0, 1000, 0]]",False,True,False,True
+brgbrg,K=1,iterations=1000,"[[0, 1000, 0], [507, 0, 493], [153, 670, 177]]",False,False,False,True
+brgbbr,K=1,iterations=1000,"[[0, 1000, 0], [512, 488, 0], [0, 1000, 0]]",False,True,False,True
+brgbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+brgbbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 503, 497], [0, 1000, 0]]",False,True,False,True
+brgbgr,K=1,iterations=1000,"[[0, 1000, 0], [514, 0, 486], [67, 730, 203]]",False,False,False,True
+brgbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 498, 502], [0, 1000, 0]]",False,True,False,True
+brgbgg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 479, 521]]",False,False,False,True
+brggrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [584, 197, 219]]",False,False,False,True
+brggrb,K=1,iterations=1000,"[[0, 1000, 0], [507, 0, 493], [232, 714, 54]]",False,False,False,True
+brggrg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [220, 66, 714]]",False,False,False,True
+brggbr,K=1,iterations=1000,"[[0, 1000, 0], [498, 0, 502], [96, 818, 86]]",False,False,False,True
+brggbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 496, 504], [0, 1000, 0]]",False,True,False,True
+brggbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 494, 506]]",False,False,False,True
+brgggr,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [240, 221, 539]]",False,False,False,True
+brgggb,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [51, 727, 222]]",False,False,False,True
+brgggg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+bbrrrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+bbrrrb,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [0, 1000, 0]]",False,True,False,True
+bbrrrg,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [231, 709, 60]]",False,False,False,True
+bbrrbr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [0, 1000, 0]]",False,True,False,True
+bbrrbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbrrbg,K=1,iterations=1000,"[[0, 1000, 0], [503, 497, 0], [0, 1000, 0]]",False,True,False,True
+bbrrgr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [518, 482, 0]]",False,False,False,True
+bbrrgb,K=1,iterations=1000,"[[0, 1000, 0], [473, 527, 0], [0, 1000, 0]]",False,True,False,True
+bbrrgg,K=1,iterations=1000,"[[0, 1000, 0], [495, 0, 505], [98, 813, 89]]",False,False,False,True
+bbrbrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [0, 1000, 0]]",False,True,False,True
+bbrbrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbrbrg,K=1,iterations=1000,"[[0, 1000, 0], [505, 495, 0], [0, 1000, 0]]",False,True,False,True
+bbrbbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbrbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbrbbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbrbgr,K=1,iterations=1000,"[[0, 1000, 0], [523, 477, 0], [0, 1000, 0]]",False,True,False,True
+bbrbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbrbgg,K=1,iterations=1000,"[[0, 1000, 0], [0, 500, 500], [0, 1000, 0]]",False,True,False,True
+bbrgrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [516, 484, 0]]",False,False,False,True
+bbrgrb,K=1,iterations=1000,"[[0, 1000, 0], [507, 493, 0], [0, 1000, 0]]",False,True,False,True
+bbrgrg,K=1,iterations=1000,"[[0, 1000, 0], [527, 0, 473], [150, 685, 165]]",False,False,False,True
+bbrgbr,K=1,iterations=1000,"[[0, 1000, 0], [456, 544, 0], [0, 1000, 0]]",False,True,False,True
+bbrgbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbrgbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 527, 473], [0, 1000, 0]]",False,True,False,True
+bbrggr,K=1,iterations=1000,"[[0, 1000, 0], [500, 0, 500], [238, 700, 62]]",False,False,False,True
+bbrggb,K=1,iterations=1000,"[[0, 1000, 0], [0, 491, 509], [0, 1000, 0]]",False,True,False,True
+bbrggg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [47, 737, 216]]",False,False,False,True
+bbbrrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [0, 1000, 0]]",False,True,False,True
+bbbrrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbrrg,K=1,iterations=1000,"[[0, 1000, 0], [490, 510, 0], [0, 1000, 0]]",False,True,False,True
+bbbrbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbrbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbrbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbrgr,K=1,iterations=1000,"[[0, 1000, 0], [504, 496, 0], [0, 1000, 0]]",False,True,False,True
+bbbrgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbrgg,K=1,iterations=1000,"[[0, 1000, 0], [0, 478, 522], [0, 1000, 0]]",False,True,False,True
+bbbbrr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbbrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbbrg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbbbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbbbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbbgr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbbgg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbgrr,K=1,iterations=1000,"[[0, 1000, 0], [510, 490, 0], [0, 1000, 0]]",False,True,False,True
+bbbgrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbgrg,K=1,iterations=1000,"[[0, 1000, 0], [0, 505, 495], [0, 1000, 0]]",False,True,False,True
+bbbgbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbgbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbgbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbggr,K=1,iterations=1000,"[[0, 1000, 0], [0, 475, 525], [0, 1000, 0]]",False,True,False,True
+bbbggb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbbggg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 1000, 0]]",False,True,False,True
+bbgrrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [225, 713, 62]]",False,False,False,True
+bbgrrb,K=1,iterations=1000,"[[0, 1000, 0], [483, 517, 0], [0, 1000, 0]]",False,True,False,True
+bbgrrg,K=1,iterations=1000,"[[0, 1000, 0], [537, 0, 463], [50, 733, 217]]",False,False,False,True
+bbgrbr,K=1,iterations=1000,"[[0, 1000, 0], [487, 513, 0], [0, 1000, 0]]",False,True,False,True
+bbgrbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbgrbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 497, 503], [0, 1000, 0]]",False,True,False,True
+bbgrgr,K=1,iterations=1000,"[[0, 1000, 0], [470, 0, 530], [169, 657, 174]]",False,False,False,True
+bbgrgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 489, 511], [0, 1000, 0]]",False,True,False,True
+bbgrgg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 516, 484]]",False,False,False,True
+bbgbrr,K=1,iterations=1000,"[[0, 1000, 0], [489, 511, 0], [0, 1000, 0]]",False,True,False,True
+bbgbrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbgbrg,K=1,iterations=1000,"[[0, 1000, 0], [0, 516, 484], [0, 1000, 0]]",False,True,False,True
+bbgbbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbgbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbgbbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbgbgr,K=1,iterations=1000,"[[0, 1000, 0], [0, 491, 509], [0, 1000, 0]]",False,True,False,True
+bbgbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbgbgg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 1000, 0]]",False,True,False,True
+bbggrr,K=1,iterations=1000,"[[0, 1000, 0], [502, 0, 498], [90, 800, 110]]",False,False,False,True
+bbggrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 472, 528], [0, 1000, 0]]",False,True,False,True
+bbggrg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 486, 514]]",False,False,False,True
+bbggbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 512, 488], [0, 1000, 0]]",False,True,False,True
+bbggbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bbggbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 1000, 0]]",False,True,False,True
+bbgggr,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [58, 729, 213]]",False,False,False,True
+bbgggb,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 1000, 0]]",False,True,False,True
+bbgggg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+bgrrrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+bgrrrb,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [228, 713, 59]]",False,False,False,True
+bgrrrg,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [554, 214, 232]]",False,False,False,True
+bgrrbr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [525, 475, 0]]",False,False,False,True
+bgrrbb,K=1,iterations=1000,"[[0, 1000, 0], [503, 497, 0], [0, 1000, 0]]",False,True,False,True
+bgrrbg,K=1,iterations=1000,"[[0, 1000, 0], [480, 0, 520], [96, 813, 91]]",False,False,False,True
+bgrrgr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [700, 66, 234]]",False,False,False,True
+bgrrgb,K=1,iterations=1000,"[[0, 1000, 0], [493, 0, 507], [55, 724, 221]]",False,False,False,True
+bgrrgg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [213, 240, 547]]",False,False,False,True
+bgrbrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [494, 506, 0]]",False,False,False,True
+bgrbrb,K=1,iterations=1000,"[[0, 1000, 0], [472, 528, 0], [0, 1000, 0]]",False,True,False,True
+bgrbrg,K=1,iterations=1000,"[[0, 1000, 0], [510, 0, 490], [184, 753, 63]]",False,False,False,True
+bgrbbr,K=1,iterations=1000,"[[0, 1000, 0], [513, 487, 0], [0, 1000, 0]]",False,True,False,True
+bgrbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bgrbbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 501, 499], [0, 1000, 0]]",False,True,False,True
+bgrbgr,K=1,iterations=1000,"[[0, 1000, 0], [500, 0, 500], [156, 667, 177]]",False,False,False,True
+bgrbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 485, 515], [0, 1000, 0]]",False,True,False,True
+bgrbgg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [62, 710, 228]]",False,False,False,True
+bgrgrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [728, 60, 212]]",False,False,False,True
+bgrgrb,K=1,iterations=1000,"[[0, 1000, 0], [494, 0, 506], [155, 669, 176]]",False,False,False,True
+bgrgrg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [225, 42, 733]]",False,False,False,True
+bgrgbr,K=1,iterations=1000,"[[0, 1000, 0], [493, 0, 507], [159, 667, 174]]",False,False,False,True
+bgrgbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 495, 505], [0, 1000, 0]]",False,True,False,True
+bgrgbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 492, 508]]",False,False,False,True
+bgrggr,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [199, 60, 741]]",False,False,False,True
+bgrggb,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 513, 487]]",False,False,False,True
+bgrggg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+bgbrrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [227, 706, 67]]",False,False,False,True
+bgbrrb,K=1,iterations=1000,"[[0, 1000, 0], [500, 500, 0], [0, 1000, 0]]",False,True,False,True
+bgbrrg,K=1,iterations=1000,"[[0, 1000, 0], [483, 0, 517], [91, 814, 95]]",False,False,False,True
+bgbrbr,K=1,iterations=1000,"[[0, 1000, 0], [511, 489, 0], [0, 1000, 0]]",False,True,False,True
+bgbrbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bgbrbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 485, 515], [0, 1000, 0]]",False,True,False,True
+bgbrgr,K=1,iterations=1000,"[[0, 1000, 0], [504, 0, 496], [162, 677, 161]]",False,False,False,True
+bgbrgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 518, 482], [0, 1000, 0]]",False,True,False,True
+bgbrgg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [68, 707, 225]]",False,False,False,True
+bgbbrr,K=1,iterations=1000,"[[0, 1000, 0], [497, 503, 0], [0, 1000, 0]]",False,True,False,True
+bgbbrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bgbbrg,K=1,iterations=1000,"[[0, 1000, 0], [0, 479, 521], [0, 1000, 0]]",False,True,False,True
+bgbbbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bgbbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bgbbbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bgbbgr,K=1,iterations=1000,"[[0, 1000, 0], [0, 534, 466], [0, 1000, 0]]",False,True,False,True
+bgbbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bgbbgg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 1000, 0]]",False,True,False,True
+bgbgrr,K=1,iterations=1000,"[[0, 1000, 0], [514, 0, 486], [60, 710, 230]]",False,False,False,True
+bgbgrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 491, 509], [0, 1000, 0]]",False,True,False,True
+bgbgrg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 511, 489]]",False,False,False,True
+bgbgbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 515, 485], [0, 1000, 0]]",False,True,False,True
+bgbgbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bgbgbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 1000, 0]]",False,True,False,True
+bgbggr,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 517, 483]]",False,False,False,True
+bgbggb,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 1000, 0]]",False,True,False,True
+bgbggg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+bggrrr,K=1,iterations=1000,"[[0, 1000, 0], [1000, 0, 0], [532, 240, 228]]",False,False,False,True
+bggrrb,K=1,iterations=1000,"[[0, 1000, 0], [515, 0, 485], [93, 807, 100]]",False,False,False,True
+bggrrg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [227, 219, 554]]",False,False,False,True
+bggrbr,K=1,iterations=1000,"[[0, 1000, 0], [502, 0, 498], [231, 707, 62]]",False,False,False,True
+bggrbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 500, 500], [0, 1000, 0]]",False,True,False,True
+bggrbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [58, 735, 207]]",False,False,False,True
+bggrgr,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [216, 47, 737]]",False,False,False,True
+bggrgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 487, 513]]",False,False,False,True
+bggrgg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+bggbrr,K=1,iterations=1000,"[[0, 1000, 0], [487, 0, 513], [96, 824, 80]]",False,False,False,True
+bggbrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 473, 527], [0, 1000, 0]]",False,True,False,True
+bggbrg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [62, 713, 225]]",False,False,False,True
+bggbbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 491, 509], [0, 1000, 0]]",False,True,False,True
+bggbbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 1000, 0], [0, 1000, 0]]",True,True,True,False
+bggbbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 1000, 0]]",False,True,False,True
+bggbgr,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 499, 501]]",False,False,False,True
+bggbgb,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 1000, 0]]",False,True,False,True
+bggbgg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+bgggrr,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [212, 234, 554]]",False,False,False,True
+bgggrb,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [57, 699, 244]]",False,False,False,True
+bgggrg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+bgggbr,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [68, 723, 209]]",False,False,False,True
+bgggbb,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 1000, 0]]",False,True,False,True
+bgggbg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+bggggr,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+bggggb,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+bggggg,K=1,iterations=1000,"[[0, 1000, 0], [0, 0, 1000], [0, 0, 1000]]",False,False,True,True
+grrrrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+grrrrb,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+grrrrg,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+grrrbr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+grrrbb,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [571, 216, 213]]",False,False,False,True
+grrrbg,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [213, 58, 729]]",False,False,False,True
+grrrgr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+grrrgb,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [238, 50, 712]]",False,False,False,True
+grrrgg,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [0, 0, 1000]]",False,True,False,True
+grrbrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+grrbrb,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [720, 225, 55]]",False,False,False,True
+grrbrg,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [494, 0, 506]]",False,False,False,True
+grrbbr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [563, 213, 224]]",False,False,False,True
+grrbbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [208, 557, 235]]",False,False,False,True
+grrbbg,K=1,iterations=1000,"[[0, 0, 1000], [514, 486, 0], [89, 94, 817]]",False,False,False,True
+grrbgr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [210, 64, 726]]",False,False,False,True
+grrbgb,K=1,iterations=1000,"[[0, 0, 1000], [501, 499, 0], [62, 221, 717]]",False,False,False,True
+grrbgg,K=1,iterations=1000,"[[0, 0, 1000], [486, 0, 514], [0, 0, 1000]]",False,True,False,True
+grrgrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+grrgrb,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [490, 0, 510]]",False,False,False,True
+grrgrg,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [0, 0, 1000]]",False,True,False,True
+grrgbr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [211, 59, 730]]",False,False,False,True
+grrgbb,K=1,iterations=1000,"[[0, 0, 1000], [504, 496, 0], [101, 88, 811]]",False,False,False,True
+grrgbg,K=1,iterations=1000,"[[0, 0, 1000], [486, 0, 514], [0, 0, 1000]]",False,True,False,True
+grrggr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [0, 0, 1000]]",False,True,False,True
+grrggb,K=1,iterations=1000,"[[0, 0, 1000], [497, 0, 503], [0, 0, 1000]]",False,True,False,True
+grrggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+grbrrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+grbrrb,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [723, 238, 39]]",False,False,False,True
+grbrrg,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [515, 0, 485]]",False,False,False,True
+grbrbr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [716, 224, 60]]",False,False,False,True
+grbrbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [227, 721, 52]]",False,False,False,True
+grbrbg,K=1,iterations=1000,"[[0, 0, 1000], [479, 521, 0], [189, 165, 646]]",False,False,False,True
+grbrgr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [484, 0, 516]]",False,False,False,True
+grbrgb,K=1,iterations=1000,"[[0, 0, 1000], [518, 482, 0], [155, 177, 668]]",False,False,False,True
+grbrgg,K=1,iterations=1000,"[[0, 0, 1000], [524, 0, 476], [0, 0, 1000]]",False,True,False,True
+grbbrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [592, 218, 190]]",False,False,False,True
+grbbrb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [214, 735, 51]]",False,False,False,True
+grbbrg,K=1,iterations=1000,"[[0, 0, 1000], [498, 502, 0], [198, 50, 752]]",False,False,False,True
+grbbbr,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [200, 561, 239]]",False,False,False,True
+grbbbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+grbbbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [49, 214, 737]]",False,False,False,True
+grbbgr,K=1,iterations=1000,"[[0, 0, 1000], [474, 526, 0], [94, 82, 824]]",False,False,False,True
+grbbgb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 494, 506]]",False,False,False,True
+grbbgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 531, 469], [0, 0, 1000]]",False,True,False,True
+grbgrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [203, 76, 721]]",False,False,False,True
+grbgrb,K=1,iterations=1000,"[[0, 0, 1000], [534, 466, 0], [163, 182, 655]]",False,False,False,True
+grbgrg,K=1,iterations=1000,"[[0, 0, 1000], [504, 0, 496], [0, 0, 1000]]",False,True,False,True
+grbgbr,K=1,iterations=1000,"[[0, 0, 1000], [505, 495, 0], [48, 221, 731]]",False,False,False,True
+grbgbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 471, 529]]",False,False,False,True
+grbgbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 501, 499], [0, 0, 1000]]",False,True,False,True
+grbggr,K=1,iterations=1000,"[[0, 0, 1000], [514, 0, 486], [0, 0, 1000]]",False,True,False,True
+grbggb,K=1,iterations=1000,"[[0, 0, 1000], [0, 506, 494], [0, 0, 1000]]",False,True,False,True
+grbggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+grgrrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+grgrrb,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [495, 0, 505]]",False,False,False,True
+grgrrg,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [0, 0, 1000]]",False,True,False,True
+grgrbr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [476, 0, 524]]",False,False,False,True
+grgrbb,K=1,iterations=1000,"[[0, 0, 1000], [503, 497, 0], [225, 55, 720]]",False,False,False,True
+grgrbg,K=1,iterations=1000,"[[0, 0, 1000], [531, 0, 469], [0, 0, 1000]]",False,True,False,True
+grgrgr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [0, 0, 1000]]",False,True,False,True
+grgrgb,K=1,iterations=1000,"[[0, 0, 1000], [482, 0, 518], [0, 0, 1000]]",False,True,False,True
+grgrgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+grgbrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [225, 55, 720]]",False,False,False,True
+grgbrb,K=1,iterations=1000,"[[0, 0, 1000], [475, 525, 0], [167, 180, 653]]",False,False,False,True
+grgbrg,K=1,iterations=1000,"[[0, 0, 1000], [505, 0, 495], [0, 0, 1000]]",False,True,False,True
+grgbbr,K=1,iterations=1000,"[[0, 0, 1000], [504, 496, 0], [89, 113, 798]]",False,False,False,True
+grgbbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [46, 238, 716]]",False,False,False,True
+grgbbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 522, 478], [0, 0, 1000]]",False,True,False,True
+grgbgr,K=1,iterations=1000,"[[0, 0, 1000], [484, 0, 516], [0, 0, 1000]]",False,True,False,True
+grgbgb,K=1,iterations=1000,"[[0, 0, 1000], [0, 500, 500], [0, 0, 1000]]",False,True,False,True
+grgbgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+grggrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [0, 0, 1000]]",False,True,False,True
+grggrb,K=1,iterations=1000,"[[0, 0, 1000], [493, 0, 507], [0, 0, 1000]]",False,True,False,True
+grggrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+grggbr,K=1,iterations=1000,"[[0, 0, 1000], [489, 0, 511], [0, 0, 1000]]",False,True,False,True
+grggbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 500, 500], [0, 0, 1000]]",False,True,False,True
+grggbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+grgggr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+grgggb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+grgggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gbrrrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+gbrrrb,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [539, 235, 226]]",False,False,False,True
+gbrrrg,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [212, 61, 727]]",False,False,False,True
+gbrrbr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [730, 218, 52]]",False,False,False,True
+gbrrbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [232, 552, 216]]",False,False,False,True
+gbrrbg,K=1,iterations=1000,"[[0, 0, 1000], [474, 526, 0], [59, 223, 718]]",False,False,False,True
+gbrrgr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [504, 0, 496]]",False,False,False,True
+gbrrgb,K=1,iterations=1000,"[[0, 0, 1000], [500, 500, 0], [84, 85, 831]]",False,False,False,True
+gbrrgg,K=1,iterations=1000,"[[0, 0, 1000], [489, 0, 511], [0, 0, 1000]]",False,True,False,True
+gbrbrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [736, 204, 60]]",False,False,False,True
+gbrbrb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [217, 736, 47]]",False,False,False,True
+gbrbrg,K=1,iterations=1000,"[[0, 0, 1000], [515, 485, 0], [169, 169, 662]]",False,False,False,True
+gbrbbr,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [241, 701, 58]]",False,False,False,True
+gbrbbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+gbrbbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 488, 512]]",False,False,False,True
+gbrbgr,K=1,iterations=1000,"[[0, 0, 1000], [492, 508, 0], [154, 182, 664]]",False,False,False,True
+gbrbgb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 514, 486]]",False,False,False,True
+gbrbgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 502, 498], [0, 0, 1000]]",False,True,False,True
+gbrgrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [507, 0, 493]]",False,False,False,True
+gbrgrb,K=1,iterations=1000,"[[0, 0, 1000], [504, 496, 0], [202, 54, 744]]",False,False,False,True
+gbrgrg,K=1,iterations=1000,"[[0, 0, 1000], [483, 0, 517], [0, 0, 1000]]",False,True,False,True
+gbrgbr,K=1,iterations=1000,"[[0, 0, 1000], [485, 515, 0], [154, 153, 693]]",False,False,False,True
+gbrgbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [44, 225, 731]]",False,False,False,True
+gbrgbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 552, 448], [0, 0, 1000]]",False,True,False,True
+gbrggr,K=1,iterations=1000,"[[0, 0, 1000], [486, 0, 514], [0, 0, 1000]]",False,True,False,True
+gbrggb,K=1,iterations=1000,"[[0, 0, 1000], [0, 508, 492], [0, 0, 1000]]",False,True,False,True
+gbrggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gbbrrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [549, 235, 216]]",False,False,False,True
+gbbrrb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [218, 561, 221]]",False,False,False,True
+gbbrrg,K=1,iterations=1000,"[[0, 0, 1000], [527, 473, 0], [83, 85, 832]]",False,False,False,True
+gbbrbr,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [208, 734, 58]]",False,False,False,True
+gbbrbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+gbbrbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 482, 518]]",False,False,False,True
+gbbrgr,K=1,iterations=1000,"[[0, 0, 1000], [476, 524, 0], [224, 58, 718]]",False,False,False,True
+gbbrgb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [52, 220, 728]]",False,False,False,True
+gbbrgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 477, 523], [0, 0, 1000]]",False,True,False,True
+gbbbrr,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [224, 555, 221]]",False,False,False,True
+gbbbrb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+gbbbrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [58, 237, 705]]",False,False,False,True
+gbbbbr,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+gbbbbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+gbbbbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+gbbbgr,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [55, 232, 713]]",False,False,False,True
+gbbbgb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+gbbbgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 0, 1000]]",False,True,False,True
+gbbgrr,K=1,iterations=1000,"[[0, 0, 1000], [501, 499, 0], [97, 103, 800]]",False,False,False,True
+gbbgrb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [53, 221, 726]]",False,False,False,True
+gbbgrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 486, 514], [0, 0, 1000]]",False,True,False,True
+gbbgbr,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 523, 477]]",False,False,False,True
+gbbgbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+gbbgbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 0, 1000]]",False,True,False,True
+gbbggr,K=1,iterations=1000,"[[0, 0, 1000], [0, 478, 522], [0, 0, 1000]]",False,True,False,True
+gbbggb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 0, 1000]]",False,True,False,True
+gbbggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gbgrrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [235, 52, 713]]",False,False,False,True
+gbgrrb,K=1,iterations=1000,"[[0, 0, 1000], [508, 492, 0], [86, 72, 842]]",False,False,False,True
+gbgrrg,K=1,iterations=1000,"[[0, 0, 1000], [480, 0, 520], [0, 0, 1000]]",False,True,False,True
+gbgrbr,K=1,iterations=1000,"[[0, 0, 1000], [493, 507, 0], [163, 185, 652]]",False,False,False,True
+gbgrbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [51, 228, 721]]",False,False,False,True
+gbgrbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 493, 507], [0, 0, 1000]]",False,True,False,True
+gbgrgr,K=1,iterations=1000,"[[0, 0, 1000], [513, 0, 487], [0, 0, 1000]]",False,True,False,True
+gbgrgb,K=1,iterations=1000,"[[0, 0, 1000], [0, 490, 510], [0, 0, 1000]]",False,True,False,True
+gbgrgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gbgbrr,K=1,iterations=1000,"[[0, 0, 1000], [534, 466, 0], [54, 226, 720]]",False,False,False,True
+gbgbrb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 492, 508]]",False,False,False,True
+gbgbrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 485, 515], [0, 0, 1000]]",False,True,False,True
+gbgbbr,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 491, 509]]",False,False,False,True
+gbgbbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+gbgbbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 0, 1000]]",False,True,False,True
+gbgbgr,K=1,iterations=1000,"[[0, 0, 1000], [0, 512, 488], [0, 0, 1000]]",False,True,False,True
+gbgbgb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 0, 1000]]",False,True,False,True
+gbgbgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gbggrr,K=1,iterations=1000,"[[0, 0, 1000], [515, 0, 485], [0, 0, 1000]]",False,True,False,True
+gbggrb,K=1,iterations=1000,"[[0, 0, 1000], [0, 524, 476], [0, 0, 1000]]",False,True,False,True
+gbggrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gbggbr,K=1,iterations=1000,"[[0, 0, 1000], [0, 512, 488], [0, 0, 1000]]",False,True,False,True
+gbggbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 0, 1000]]",False,True,False,True
+gbggbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gbgggr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gbgggb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gbgggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggrrrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [1000, 0, 0]]",False,False,True,True
+ggrrrb,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [226, 50, 724]]",False,False,False,True
+ggrrrg,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [0, 0, 1000]]",False,True,False,True
+ggrrbr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [508, 0, 492]]",False,False,False,True
+ggrrbb,K=1,iterations=1000,"[[0, 0, 1000], [492, 508, 0], [94, 83, 823]]",False,False,False,True
+ggrrbg,K=1,iterations=1000,"[[0, 0, 1000], [478, 0, 522], [0, 0, 1000]]",False,True,False,True
+ggrrgr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [0, 0, 1000]]",False,True,False,True
+ggrrgb,K=1,iterations=1000,"[[0, 0, 1000], [515, 0, 485], [0, 0, 1000]]",False,True,False,True
+ggrrgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggrbrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [515, 0, 485]]",False,False,False,True
+ggrbrb,K=1,iterations=1000,"[[0, 0, 1000], [500, 500, 0], [173, 166, 661]]",False,False,False,True
+ggrbrg,K=1,iterations=1000,"[[0, 0, 1000], [510, 0, 490], [0, 0, 1000]]",False,True,False,True
+ggrbbr,K=1,iterations=1000,"[[0, 0, 1000], [527, 473, 0], [229, 49, 722]]",False,False,False,True
+ggrbbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [49, 234, 717]]",False,False,False,True
+ggrbbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 544, 456], [0, 0, 1000]]",False,True,False,True
+ggrbgr,K=1,iterations=1000,"[[0, 0, 1000], [493, 0, 507], [0, 0, 1000]]",False,True,False,True
+ggrbgb,K=1,iterations=1000,"[[0, 0, 1000], [0, 502, 498], [0, 0, 1000]]",False,True,False,True
+ggrbgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggrgrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [0, 0, 1000]]",False,True,False,True
+ggrgrb,K=1,iterations=1000,"[[0, 0, 1000], [533, 0, 467], [0, 0, 1000]]",False,True,False,True
+ggrgrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggrgbr,K=1,iterations=1000,"[[0, 0, 1000], [483, 0, 517], [0, 0, 1000]]",False,True,False,True
+ggrgbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 508, 492], [0, 0, 1000]]",False,True,False,True
+ggrgbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggrggr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggrggb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggrggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggbrrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [235, 45, 720]]",False,False,False,True
+ggbrrb,K=1,iterations=1000,"[[0, 0, 1000], [504, 496, 0], [60, 205, 735]]",False,False,False,True
+ggbrrg,K=1,iterations=1000,"[[0, 0, 1000], [506, 0, 494], [0, 0, 1000]]",False,True,False,True
+ggbrbr,K=1,iterations=1000,"[[0, 0, 1000], [506, 494, 0], [158, 176, 666]]",False,False,False,True
+ggbrbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 495, 505]]",False,False,False,True
+ggbrbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 470, 530], [0, 0, 1000]]",False,True,False,True
+ggbrgr,K=1,iterations=1000,"[[0, 0, 1000], [505, 0, 495], [0, 0, 1000]]",False,True,False,True
+ggbrgb,K=1,iterations=1000,"[[0, 0, 1000], [0, 495, 505], [0, 0, 1000]]",False,True,False,True
+ggbrgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggbbrr,K=1,iterations=1000,"[[0, 0, 1000], [480, 520, 0], [99, 99, 802]]",False,False,False,True
+ggbbrb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 506, 494]]",False,False,False,True
+ggbbrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 502, 498], [0, 0, 1000]]",False,True,False,True
+ggbbbr,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [59, 214, 727]]",False,False,False,True
+ggbbbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 1000, 0]]",False,False,True,True
+ggbbbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 0, 1000]]",False,True,False,True
+ggbbgr,K=1,iterations=1000,"[[0, 0, 1000], [0, 499, 501], [0, 0, 1000]]",False,True,False,True
+ggbbgb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 0, 1000]]",False,True,False,True
+ggbbgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggbgrr,K=1,iterations=1000,"[[0, 0, 1000], [520, 0, 480], [0, 0, 1000]]",False,True,False,True
+ggbgrb,K=1,iterations=1000,"[[0, 0, 1000], [0, 486, 514], [0, 0, 1000]]",False,True,False,True
+ggbgrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggbgbr,K=1,iterations=1000,"[[0, 0, 1000], [0, 507, 493], [0, 0, 1000]]",False,True,False,True
+ggbgbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 0, 1000]]",False,True,False,True
+ggbgbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggbggr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggbggb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggbggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gggrrr,K=1,iterations=1000,"[[0, 0, 1000], [1000, 0, 0], [0, 0, 1000]]",False,True,False,True
+gggrrb,K=1,iterations=1000,"[[0, 0, 1000], [506, 0, 494], [0, 0, 1000]]",False,True,False,True
+gggrrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gggrbr,K=1,iterations=1000,"[[0, 0, 1000], [492, 0, 508], [0, 0, 1000]]",False,True,False,True
+gggrbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 503, 497], [0, 0, 1000]]",False,True,False,True
+gggrbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gggrgr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gggrgb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gggrgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gggbrr,K=1,iterations=1000,"[[0, 0, 1000], [491, 0, 509], [0, 0, 1000]]",False,True,False,True
+gggbrb,K=1,iterations=1000,"[[0, 0, 1000], [0, 484, 516], [0, 0, 1000]]",False,True,False,True
+gggbrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gggbbr,K=1,iterations=1000,"[[0, 0, 1000], [0, 510, 490], [0, 0, 1000]]",False,True,False,True
+gggbbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 1000, 0], [0, 0, 1000]]",False,True,False,True
+gggbbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gggbgr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gggbgb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gggbgg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggggrr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggggrb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggggrg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggggbr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggggbb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+ggggbg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gggggr,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gggggb,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+gggggg,K=1,iterations=1000,"[[0, 0, 1000], [0, 0, 1000], [0, 0, 1000]]",True,True,True,False
+576,rrrbbb,rrrbbg,rrrbgb,rrrbgg,rrrgbb,rrrgbg,rrrggb,rrrggg,rrbrbb,rrbrbg,rrbrgb,rrbrgg,rrbbrb,rrbbrg,rrbbbr,rrbbbb,rrbbbg,rrbbgr,rrbbgb,rrbbgg,rrbgrb,rrbgrg,rrbgbr,rrbgbb,rrbgbg,rrbggr,rrbggb,rrbggg,rrgrbb,rrgrbg,rrgrgb,rrgrgg,rrgbrb,rrgbrg,rrgbbr,rrgbbb,rrgbbg,rrgbgr,rrgbgb,rrgbgg,rrggrb,rrggrg,rrggbr,rrggbb,rrggbg,rrgggr,rrgggb,rrgggg,rbrrbb,rbrrbg,rbrrgb,rbrrgg,rbrbrb,rbrbrg,rbrbbr,rbrbbb,rbrbbg,rbrbgr,rbrbgb,rbrbgg,rbrgrb,rbrgrg,rbrgbr,rbrgbb,rbrgbg,rbrggr,rbrggb,rbrggg,rbbrrb,rbbrrg,rbbrbr,rbbrbb,rbbrbg,rbbrgr,rbbrgb,rbbrgg,rbbbrr,rbbbrb,rbbbrg,rbbbbr,rbbbbb,rbbbbg,rbbbgr,rbbbgb,rbbbgg,rbbgrr,rbbgrb,rbbgrg,rbbgbr,rbbgbb,rbbgbg,rbbggr,rbbggb,rbbggg,rbgrrb,rbgrrg,rbgrbr,rbgrbb,rbgrbg,rbgrgr,rbgrgb,rbgrgg,rbgbrr,rbgbrb,rbgbrg,rbgbbr,rbgbbb,rbgbbg,rbgbgr,rbgbgb,rbgbgg,rbggrr,rbggrb,rbggrg,rbggbr,rbggbb,rbggbg,rbgggr,rbgggb,rbgggg,rgrrbb,rgrrbg,rgrrgb,rgrrgg,rgrbrb,rgrbrg,rgrbbr,rgrbbb,rgrbbg,rgrbgr,rgrbgb,rgrbgg,rgrgrb,rgrgrg,rgrgbr,rgrgbb,rgrgbg,rgrggr,rgrggb,rgrggg,rgbrrb,rgbrrg,rgbrbr,rgbrbb,rgbrbg,rgbrgr,rgbrgb,rgbrgg,rgbbrr,rgbbrb,rgbbrg,rgbbbr,rgbbbb,rgbbbg,rgbbgr,rgbbgb,rgbbgg,rgbgrr,rgbgrb,rgbgrg,rgbgbr,rgbgbb,rgbgbg,rgbggr,rgbggb,rgbggg,rggrrb,rggrrg,rggrbr,rggrbb,rggrbg,rggrgr,rggrgb,rggrgg,rggbrr,rggbrb,rggbrg,rggbbr,rggbbb,rggbbg,rggbgr,rggbgb,rggbgg,rgggrr,rgggrb,rgggrg,rgggbr,rgggbb,rgggbg,rggggr,rggggb,rggggg,brrrrr,brrrrb,brrrrg,brrrbr,brrrbb,brrrbg,brrrgr,brrrgb,brrrgg,brrbrr,brrbrb,brrbrg,brrbbr,brrbbg,brrbgr,brrbgb,brrbgg,brrgrr,brrgrb,brrgrg,brrgbr,brrgbb,brrgbg,brrggr,brrggb,brrggg,brbrrr,brbrrb,brbrrg,brbrbr,brbrbg,brbrgr,brbrgb,brbrgg,brbbrr,brbbrg,brbbgr,brbbgg,brbgrr,brbgrb,brbgrg,brbgbr,brbgbg,brbggr,brbggb,brbggg,brgrrr,brgrrb,brgrrg,brgrbr,brgrbb,brgrbg,brgrgr,brgrgb,brgrgg,brgbrr,brgbrb,brgbrg,brgbbr,brgbbg,brgbgr,brgbgb,brgbgg,brggrr,brggrb,brggrg,brggbr,brggbb,brggbg,brgggr,brgggb,brgggg,bbrrrr,bbrrrb,bbrrrg,bbrrbr,bbrrbg,bbrrgr,bbrrgb,bbrrgg,bbrbrr,bbrbrg,bbrbgr,bbrbgg,bbrgrr,bbrgrb,bbrgrg,bbrgbr,bbrgbg,bbrggr,bbrggb,bbrggg,bbbrrr,bbbrrg,bbbrgr,bbbrgg,bbbgrr,bbbgrg,bbbggr,bbbggg,bbgrrr,bbgrrb,bbgrrg,bbgrbr,bbgrbg,bbgrgr,bbgrgb,bbgrgg,bbgbrr,bbgbrg,bbgbgr,bbgbgg,bbggrr,bbggrb,bbggrg,bbggbr,bbggbg,bbgggr,bbgggb,bbgggg,bgrrrr,bgrrrb,bgrrrg,bgrrbr,bgrrbb,bgrrbg,bgrrgr,bgrrgb,bgrrgg,bgrbrr,bgrbrb,bgrbrg,bgrbbr,bgrbbg,bgrbgr,bgrbgb,bgrbgg,bgrgrr,bgrgrb,bgrgrg,bgrgbr,bgrgbb,bgrgbg,bgrggr,bgrggb,bgrggg,bgbrrr,bgbrrb,bgbrrg,bgbrbr,bgbrbg,bgbrgr,bgbrgb,bgbrgg,bgbbrr,bgbbrg,bgbbgr,bgbbgg,bgbgrr,bgbgrb,bgbgrg,bgbgbr,bgbgbg,bgbggr,bgbggb,bgbggg,bggrrr,bggrrb,bggrrg,bggrbr,bggrbb,bggrbg,bggrgr,bggrgb,bggrgg,bggbrr,bggbrb,bggbrg,bggbbr,bggbbg,bggbgr,bggbgb,bggbgg,bgggrr,bgggrb,bgggrg,bgggbr,bgggbb,bgggbg,bggggr,bggggb,bggggg,grrrrr,grrrrb,grrrrg,grrrbr,grrrbb,grrrbg,grrrgr,grrrgb,grrrgg,grrbrr,grrbrb,grrbrg,grrbbr,grrbbb,grrbbg,grrbgr,grrbgb,grrbgg,grrgrr,grrgrb,grrgrg,grrgbr,grrgbb,grrgbg,grrggr,grrggb,grbrrr,grbrrb,grbrrg,grbrbr,grbrbb,grbrbg,grbrgr,grbrgb,grbrgg,grbbrr,grbbrb,grbbrg,grbbbr,grbbbb,grbbbg,grbbgr,grbbgb,grbbgg,grbgrr,grbgrb,grbgrg,grbgbr,grbgbb,grbgbg,grbggr,grbggb,grgrrr,grgrrb,grgrrg,grgrbr,grgrbb,grgrbg,grgrgr,grgrgb,grgbrr,grgbrb,grgbrg,grgbbr,grgbbb,grgbbg,grgbgr,grgbgb,grggrr,grggrb,grggbr,grggbb,gbrrrr,gbrrrb,gbrrrg,gbrrbr,gbrrbb,gbrrbg,gbrrgr,gbrrgb,gbrrgg,gbrbrr,gbrbrb,gbrbrg,gbrbbr,gbrbbb,gbrbbg,gbrbgr,gbrbgb,gbrbgg,gbrgrr,gbrgrb,gbrgrg,gbrgbr,gbrgbb,gbrgbg,gbrggr,gbrggb,gbbrrr,gbbrrb,gbbrrg,gbbrbr,gbbrbb,gbbrbg,gbbrgr,gbbrgb,gbbrgg,gbbbrr,gbbbrb,gbbbrg,gbbbbr,gbbbbb,gbbbbg,gbbbgr,gbbbgb,gbbbgg,gbbgrr,gbbgrb,gbbgrg,gbbgbr,gbbgbb,gbbgbg,gbbggr,gbbggb,gbgrrr,gbgrrb,gbgrrg,gbgrbr,gbgrbb,gbgrbg,gbgrgr,gbgrgb,gbgbrr,gbgbrb,gbgbrg,gbgbbr,gbgbbb,gbgbbg,gbgbgr,gbgbgb,gbggrr,gbggrb,gbggbr,gbggbb,ggrrrr,ggrrrb,ggrrrg,ggrrbr,ggrrbb,ggrrbg,ggrrgr,ggrrgb,ggrbrr,ggrbrb,ggrbrg,ggrbbr,ggrbbb,ggrbbg,ggrbgr,ggrbgb,ggrgrr,ggrgrb,ggrgbr,ggrgbb,ggbrrr,ggbrrb,ggbrrg,ggbrbr,ggbrbb,ggbrbg,ggbrgr,ggbrgb,ggbbrr,ggbbrb,ggbbrg,ggbbbr,ggbbbb,ggbbbg,ggbbgr,ggbbgb,ggbgrr,ggbgrb,ggbgbr,ggbgbb,gggrrr,gggrrb,gggrbr,gggrbb,gggbrr,gggbrb,gggbbr,gggbbb
+120,rrrbbb,rrrbbg,rrrbgb,rrrbgg,rrrgbb,rrrgbg,rrrggb,rrrggg,rrbrbb,rrbrbg,rrbrgb,rrbrgg,rrbbrg,rrbbbb,rrbbbg,rrbbgb,rrbbgg,rrbgrg,rrbgbb,rrbgbg,rrbggb,rrbggg,rrgrgb,rrgrgg,rrgbbb,rrgbbg,rrgbgb,rrgbgg,rrggbb,rrggbg,rrgggb,rrgggg,rbbbbb,rbbbbg,rbbbgg,rbbgbg,rbbggg,rbgbgg,rbgggg,rggggg,brrrrr,brrrrb,brrrrg,brrrbb,brrrbg,brrrgb,brrrgg,brrbrb,brrbrg,brrbbg,brrbgb,brrbgg,brrgrb,brrgrg,brrgbb,brrgbg,brrggb,brrggg,brbrbg,brbrgb,brbrgg,brbbrg,brbbgg,brbgrg,brbgbg,brbggb,brbggg,brgrgb,brgrgg,brgbbg,brgbgb,brgbgg,brggbb,brggbg,brgggb,brgggg,bbbggg,bbgbgg,bbgggg,bggggg,grrrrr,grrrrb,grrrrg,grrrbb,grrrbg,grrrgb,grrrgg,grrbrb,grrbrg,grrbbb,grrbbg,grrbgb,grrbgg,grrgrb,grrgrg,grrgbb,grrgbg,grrggb,grbrbb,grbrbg,grbrgb,grbrgg,grbbrg,grbbbb,grbbbg,grbbgb,grbbgg,grbgrg,grbgbb,grbgbg,grbggb,grgrgb,grgbbb,grgbbg,grgbgb,grggbb,gbbbbb,gbbbbg,gbbbgg,gbbgbg
